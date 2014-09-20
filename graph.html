@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<style type="text/css">
+			body{text-align:center;};
+			#chart_div{text-align:center;float:center;};
+		</style>
+		
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+			google.load("visualization", "1", {packages:["corechart"]});
+			google.setOnLoadCallback(drawChart);
+			function drawChart() {
+				var data = google.visualization.arrayToDataTable([
+					['Month', 'Sentiment'],
+					['Jan', 1],
+					['Feb', 0.9],
+					['Mar', 0.7],
+					['Apr', 0.8],
+					['May', 0.2],
+					['Jun', 0.5],
+					['Jul', 0.7],
+					['Aug', 0.8],
+					['Sept', 0.4]
+				]);
+
+				var options = {
+					title: 'Highs and Lows of the Year',
+					pointSize: 10,
+					vAxes:[
+						{}, // Nothing specified for axis 0
+						{baseline: 0.5,baselineColor: 'red'} // Axis 1
+					]
+				};
+
+				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+				chart.draw(data, options);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="chart_div" style="width: 900px; height: 500px;"></div>
+	</body>
+</html>
