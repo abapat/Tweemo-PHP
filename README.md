@@ -1,4 +1,4 @@
-TwitBeat
+TweetBeat
 ========
 
 Twitter sentimental analysis project
