@@ -1,6 +1,6 @@
 <?php 
 
-//function getTweetSentiment($tweet){
+function getTweetSentiment($tweet){
 	require_once 'Alchemy/alchemyapi_php/alchemyapi.php';
 	$alchemyapi = new AlchemyAPI();
 
@@ -21,7 +21,7 @@
 	}
 
 
-//}
+}
 
 
 function getNumHashTags($line){
