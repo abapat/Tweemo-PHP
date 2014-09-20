@@ -1,0 +1,9 @@
+GET /1.1/statuses/user_timeline.json?count=200&user_id=155388294&screen_name=VarunForTheHill HTTP/1.1
+Authorization:
+OAuth oauth_consumer_key="DC0sePOBbQ8bYdC8r4Smg",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1411236015",oauth_nonce="1677121624",oauth_version="1.0",oauth_token="2822318299-KoXEgNtLiin0k6rCrZiKCQmqwW5qX4YCB9BHE7D",oauth_signature="HgO1IK8QSljxZ79p1bdctUObGlQ%3D"
+Host:
+api.twitter.com
+X-Target-URI:
+https://api.twitter.com
+Connection:
+Keep-Alive
