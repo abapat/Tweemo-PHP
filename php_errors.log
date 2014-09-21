@@ -3941,3 +3941,320 @@
 [21-Sep-2014 11:18:23 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
 [21-Sep-2014 11:18:23 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
 [21-Sep-2014 11:18:23 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:57:00 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 92
+[21-Sep-2014 11:57:00 UTC] PHP Stack trace:
+[21-Sep-2014 11:57:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:57:00 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:57:00 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 11:57:22 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 92
+[21-Sep-2014 11:57:22 UTC] PHP Stack trace:
+[21-Sep-2014 11:57:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:57:22 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:57:22 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 11:57:23 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 92
+[21-Sep-2014 11:57:23 UTC] PHP Stack trace:
+[21-Sep-2014 11:57:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:57:23 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:57:23 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 11:57:24 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 92
+[21-Sep-2014 11:57:24 UTC] PHP Stack trace:
+[21-Sep-2014 11:57:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:57:24 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:57:24 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 11:57:25 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 92
+[21-Sep-2014 11:57:25 UTC] PHP Stack trace:
+[21-Sep-2014 11:57:25 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:57:25 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:57:25 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 11:57:49 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 92
+[21-Sep-2014 11:57:49 UTC] PHP Stack trace:
+[21-Sep-2014 11:57:49 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:57:49 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:57:49 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 12:04:25 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 87
+[21-Sep-2014 12:04:25 UTC] PHP Stack trace:
+[21-Sep-2014 12:04:25 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:04:25 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:04:25 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 12:04:55 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 88
+[21-Sep-2014 12:04:55 UTC] PHP Stack trace:
+[21-Sep-2014 12:04:55 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:04:55 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:04:55 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 12:05:20 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 89
+[21-Sep-2014 12:05:20 UTC] PHP Stack trace:
+[21-Sep-2014 12:05:20 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:05:20 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:05:20 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 12:05:36 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 103
+[21-Sep-2014 12:05:36 UTC] PHP Stack trace:
+[21-Sep-2014 12:05:36 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:05:36 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:05:36 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 12:05:36 UTC] PHP   4. error() C:\wamp\www\TweetBeat\index.php:89
+[21-Sep-2014 12:06:16 UTC] PHP Notice:  Array to string conversion in C:\wamp\www\TweetBeat\index.php on line 104
+[21-Sep-2014 12:06:16 UTC] PHP Stack trace:
+[21-Sep-2014 12:06:16 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:06:16 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:06:16 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 12:06:16 UTC] PHP   4. error() C:\wamp\www\TweetBeat\index.php:89
+[21-Sep-2014 12:06:16 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 95
+[21-Sep-2014 12:06:16 UTC] PHP Stack trace:
+[21-Sep-2014 12:06:16 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:06:16 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:06:16 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 12:07:38 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 95
+[21-Sep-2014 12:07:38 UTC] PHP Stack trace:
+[21-Sep-2014 12:07:38 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:07:38 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:07:38 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 12:07:44 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 95
+[21-Sep-2014 12:07:44 UTC] PHP Stack trace:
+[21-Sep-2014 12:07:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:07:44 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:07:44 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 12:07:46 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 95
+[21-Sep-2014 12:07:46 UTC] PHP Stack trace:
+[21-Sep-2014 12:07:46 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:07:46 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:07:46 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 12:07:57 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 95
+[21-Sep-2014 12:07:57 UTC] PHP Stack trace:
+[21-Sep-2014 12:07:57 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:07:57 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:07:57 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\index.php:35
+[21-Sep-2014 12:08:47 UTC] PHP Notice:  Undefined property: stdClass::$profile_image_url in C:\wamp\www\TweetBeat\index.php on line 69
+[21-Sep-2014 12:08:47 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:47 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:47 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:47 UTC] PHP   3. getProfilePic() C:\wamp\www\TweetBeat\index.php:36
+[21-Sep-2014 12:08:50 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 153
+[21-Sep-2014 12:08:50 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:50 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:50 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:50 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:50 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:08:50 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 12:08:50 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:50 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:50 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:50 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:50 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:08:50 UTC] PHP Notice:  Undefined offset: 2 in C:\wamp\www\TweetBeat\index.php on line 157
+[21-Sep-2014 12:08:50 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:50 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:50 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:50 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:50 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:08:50 UTC] PHP Notice:  Undefined offset: 5 in C:\wamp\www\TweetBeat\index.php on line 158
+[21-Sep-2014 12:08:50 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:50 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:50 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:50 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:50 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:08:50 UTC] PHP Notice:  Undefined offset: 3 in C:\wamp\www\TweetBeat\index.php on line 159
+[21-Sep-2014 12:08:50 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:50 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:50 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:50 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:50 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:08:50 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 169
+[21-Sep-2014 12:08:50 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:50 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:50 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:50 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:50 UTC] PHP   4. getTweetID() C:\wamp\www\TweetBeat\index.php:215
+[21-Sep-2014 12:08:50 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 178
+[21-Sep-2014 12:08:50 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:50 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:50 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:50 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:50 UTC] PHP   4. getTweetText() C:\wamp\www\TweetBeat\index.php:216
+[21-Sep-2014 12:08:57 UTC] PHP Notice:  Undefined property: stdClass::$profile_image_url in C:\wamp\www\TweetBeat\index.php on line 69
+[21-Sep-2014 12:08:57 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:57 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:57 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:57 UTC] PHP   3. getProfilePic() C:\wamp\www\TweetBeat\index.php:36
+[21-Sep-2014 12:08:59 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 153
+[21-Sep-2014 12:08:59 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:59 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:59 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:59 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:08:59 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 12:08:59 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:59 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:59 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:59 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:08:59 UTC] PHP Notice:  Undefined offset: 2 in C:\wamp\www\TweetBeat\index.php on line 157
+[21-Sep-2014 12:08:59 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:59 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:59 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:59 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:08:59 UTC] PHP Notice:  Undefined offset: 5 in C:\wamp\www\TweetBeat\index.php on line 158
+[21-Sep-2014 12:08:59 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:59 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:59 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:59 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:08:59 UTC] PHP Notice:  Undefined offset: 3 in C:\wamp\www\TweetBeat\index.php on line 159
+[21-Sep-2014 12:08:59 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:59 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:59 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:59 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:08:59 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 169
+[21-Sep-2014 12:08:59 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:59 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:59 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:59 UTC] PHP   4. getTweetID() C:\wamp\www\TweetBeat\index.php:215
+[21-Sep-2014 12:08:59 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 178
+[21-Sep-2014 12:08:59 UTC] PHP Stack trace:
+[21-Sep-2014 12:08:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:08:59 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:08:59 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:08:59 UTC] PHP   4. getTweetText() C:\wamp\www\TweetBeat\index.php:216
+[21-Sep-2014 12:10:59 UTC] PHP Notice:  Undefined property: stdClass::$profile_image_url in C:\wamp\www\TweetBeat\index.php on line 69
+[21-Sep-2014 12:11:00 UTC] PHP Stack trace:
+[21-Sep-2014 12:11:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:11:00 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:11:00 UTC] PHP   3. getProfilePic() C:\wamp\www\TweetBeat\index.php:36
+[21-Sep-2014 12:11:00 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 153
+[21-Sep-2014 12:11:00 UTC] PHP Stack trace:
+[21-Sep-2014 12:11:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:11:00 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:11:00 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:11:00 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:11:00 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 12:11:00 UTC] PHP Stack trace:
+[21-Sep-2014 12:11:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:11:00 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:11:00 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:11:00 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:11:00 UTC] PHP Notice:  Undefined offset: 2 in C:\wamp\www\TweetBeat\index.php on line 157
+[21-Sep-2014 12:11:00 UTC] PHP Stack trace:
+[21-Sep-2014 12:11:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:11:00 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:11:00 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:11:00 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:11:00 UTC] PHP Notice:  Undefined offset: 5 in C:\wamp\www\TweetBeat\index.php on line 158
+[21-Sep-2014 12:11:00 UTC] PHP Stack trace:
+[21-Sep-2014 12:11:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:11:00 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:11:00 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:11:00 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:11:00 UTC] PHP Notice:  Undefined offset: 3 in C:\wamp\www\TweetBeat\index.php on line 159
+[21-Sep-2014 12:11:00 UTC] PHP Stack trace:
+[21-Sep-2014 12:11:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:11:00 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:11:00 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:11:00 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:11:00 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 169
+[21-Sep-2014 12:11:00 UTC] PHP Stack trace:
+[21-Sep-2014 12:11:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:11:00 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:11:00 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:11:00 UTC] PHP   4. getTweetID() C:\wamp\www\TweetBeat\index.php:215
+[21-Sep-2014 12:11:00 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 178
+[21-Sep-2014 12:11:00 UTC] PHP Stack trace:
+[21-Sep-2014 12:11:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:11:00 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:11:00 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:11:00 UTC] PHP   4. getTweetText() C:\wamp\www\TweetBeat\index.php:216
+[21-Sep-2014 12:14:23 UTC] PHP Notice:  Undefined property: stdClass::$profile_image_url in C:\wamp\www\TweetBeat\index.php on line 69
+[21-Sep-2014 12:14:23 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:23 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:23 UTC] PHP   3. getProfilePic() C:\wamp\www\TweetBeat\index.php:36
+[21-Sep-2014 12:14:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 153
+[21-Sep-2014 12:14:24 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:24 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:24 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:24 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:14:24 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 12:14:24 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:24 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:24 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:24 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:14:24 UTC] PHP Notice:  Undefined offset: 2 in C:\wamp\www\TweetBeat\index.php on line 157
+[21-Sep-2014 12:14:24 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:24 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:24 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:24 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:14:24 UTC] PHP Notice:  Undefined offset: 5 in C:\wamp\www\TweetBeat\index.php on line 158
+[21-Sep-2014 12:14:24 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:24 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:24 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:24 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:14:24 UTC] PHP Notice:  Undefined offset: 3 in C:\wamp\www\TweetBeat\index.php on line 159
+[21-Sep-2014 12:14:24 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:24 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:24 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:24 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:14:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 169
+[21-Sep-2014 12:14:24 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:24 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:24 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:24 UTC] PHP   4. getTweetID() C:\wamp\www\TweetBeat\index.php:215
+[21-Sep-2014 12:14:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 178
+[21-Sep-2014 12:14:24 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:24 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:24 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:24 UTC] PHP   4. getTweetText() C:\wamp\www\TweetBeat\index.php:216
+[21-Sep-2014 12:14:58 UTC] PHP Notice:  Undefined property: stdClass::$profile_image_url in C:\wamp\www\TweetBeat\index.php on line 69
+[21-Sep-2014 12:14:58 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:58 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:58 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:58 UTC] PHP   3. getProfilePic() C:\wamp\www\TweetBeat\index.php:36
+[21-Sep-2014 12:14:58 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 153
+[21-Sep-2014 12:14:58 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:58 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:58 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:58 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:58 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:14:58 UTC] PHP Notice:  Undefined offset: 1 in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 12:14:58 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:58 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:58 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:58 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:58 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:14:58 UTC] PHP Notice:  Undefined offset: 2 in C:\wamp\www\TweetBeat\index.php on line 157
+[21-Sep-2014 12:14:58 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:58 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:58 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:58 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:58 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:14:58 UTC] PHP Notice:  Undefined offset: 5 in C:\wamp\www\TweetBeat\index.php on line 158
+[21-Sep-2014 12:14:58 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:58 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:58 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:58 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:58 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:14:58 UTC] PHP Notice:  Undefined offset: 3 in C:\wamp\www\TweetBeat\index.php on line 159
+[21-Sep-2014 12:14:58 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:58 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:58 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:58 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:58 UTC] PHP   4. getTweetDate() C:\wamp\www\TweetBeat\index.php:214
+[21-Sep-2014 12:14:58 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 169
+[21-Sep-2014 12:14:58 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:58 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:58 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:58 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:58 UTC] PHP   4. getTweetID() C:\wamp\www\TweetBeat\index.php:215
+[21-Sep-2014 12:14:58 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 178
+[21-Sep-2014 12:14:58 UTC] PHP Stack trace:
+[21-Sep-2014 12:14:58 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 12:14:58 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 12:14:58 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
+[21-Sep-2014 12:14:58 UTC] PHP   4. getTweetText() C:\wamp\www\TweetBeat\index.php:216

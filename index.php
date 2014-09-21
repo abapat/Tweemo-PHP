@@ -36,6 +36,11 @@ function search($term) {
 	$pic = getProfilePic($id, $name);
 	$max_id = getNextID($path); //gets next tweet to cache, creates file if new cache to be made
 	$tweets = getTweets($name, $id, 50, $max_id);
+	
+	if (!isset($tweets) || count($tweets) < 1) {
+		echo("<script> alert('Bad Twitter Handle'); </script>");
+		return;
+	}
 	$res = parseData($tweets, 30);
 	//debug
 	var_dump($res);
@@ -79,8 +84,11 @@ function getID($name) {
 					 ->buildOauth($url, $requestMethod)
 					 ->performRequest(); 
 		$arr = (json_decode($var));
-		//print_r($arr);
-		
+		print_r($arr);
+		if (isset($arr->errors)) {
+			error($arr->errors);
+			return;
+		}
 	} catch (Exception $e) {
 		echo("Error  $e");
 	}
@@ -88,6 +96,13 @@ function getID($name) {
 	return $id;
 }
 
+/*
+ * Shows error, refreshes page 
+ */
+function error($err) {
+	$str = $err[0]->message;
+	echo("<script> alert('".$str."'); window.open('/TweetBeat/page.php','_self'); </script>");
+}
 
 /**
  * Gets JSON data into array- tweet data. params: id, name of person, num of tweets to pull, num < 200
@@ -161,6 +176,7 @@ function getTweetID($arr) {
  */
 function getTweetText($arr) {
 	$str = $arr->text;
+	$str = preg_replace('/[[:^print:]]/', '', $str); //parse out weird chars
 	return $str;
 }
 
