@@ -21,11 +21,13 @@
   border-radius: 5px;
   font-size: 14px;
   width: 70px;
-  background-color: #333;
+  background-color: #232C91;
   color: #fff;
 }
 
-
+.cover-heading {
+	text-shadow: none;
+}
 /*
  * Globals
  */
