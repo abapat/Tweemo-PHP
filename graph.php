@@ -11,11 +11,16 @@
 		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 		<script type="text/javascript">
 			var data, options;
+			var rows = new Array();
+			var doneLoadingGoogle = false;
+			var doneLoadingRows = false;
+			
 			function loadPackages(){
 				google.load("visualization", "1", {packages:["corechart"]});
 				google.setOnLoadCallback(setChart);
 			}
 			
+			//sets up the columns and options
 			function setChart(){
 				data = new google.visualization.DataTable();
 				data.addColumn('string', 'Month');
@@ -57,40 +62,140 @@
 					curveType: 'function'*/
 				};
 				
-				addRows();
 				drawChart();
 			}
 			
-			function addRows(){
-				data.addRows([
-					['Jan', 1, 'postive tweet : =)\nnegative tweet : =('],
-					['Feb', 0.9, 'postive tweet : =)\nnegative tweet : =('],
-					['Mar', -0.7, 'postive tweet : =)\nnegative tweet : =('],
-					['Apr', 0.8, 'postive tweet : =)\nnegative tweet : =('],
-					['May', -0.2, 'postive tweet : =)\nnegative tweet : =(']
-				]);
-				data.addRows([
-					['Jun', 0.5, 'postive tweet : =)\nnegative tweet : =('],
-					['Jul', 0.7, 'postive tweet : =)\nnegative tweet : =('],
-					['Aug', 0.8, 'postive tweet : =)\nnegative tweet : =('],
-					['Sept', -0.4, 'postive tweet : =)\nnegative tweet : =(']
-				]);
-			}
-			
+			//renders the chart
 			function drawChart() {
+				if(!doneLoadingRows){
+					doneLoadingGoogle = true;
+					return;
+				}
+				data.addRows(rows);
 				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 
 				chart.draw(data, options);
-				//google.visualization.events.addListener(chart, 'select', selectHandler); 
+				google.visualization.events.addListener(chart, 'select', selectHandler); 
 			}
-			/*
+			
+			//creates a pop-up when a dot is selected
 			function selectHandler() {
 				alert('A table row was selected');
 			}
-			*/
+			
+			
 		</script>
 	</head>
 	<body>
+		<script type="text/javascript">
+			loadPackages();
+		</script>
+		<?php
+			$file = fopen("cache.txt", "r") or die("Unable to open file!");
+			if ($file) {
+				$latestDate = NULL;
+				$totalScore = 0;
+				$maxPos = array("score"=>0, "tweet"=>NULL);
+				$maxNeg = array("score"=>0, "tweet"=>NULl);
+				
+				while (($line = fgets($file)) !== false) {
+					//gets the tweet id
+					$idx = strpos($line, " ");
+					$id = substr($line, 0, $idx);
+					$line = substr($line, $idx+1, strlen($line));
+					
+					//gets the date
+					$idx = strpos($line, " ");
+					$date = substr($line, 0, $idx);
+					$line = substr($line, $idx+1, strlen($line));
+					$dateArr = explode("@", $date);
+					
+					//gets the score
+					$idx = strrpos($line, " ");
+					$score = substr($line, $idx, strlen($line));
+					$line = substr($line, 0, $idx);
+					//this is done again b/c there was an extra space at the end of each line.
+					$idx = strrpos($line, " ");
+					$score = (double)substr($line, $idx, strlen($line));
+					$line = substr($line, 0, $idx);
+					
+					//gets the tweet
+					$idx = strrpos($line, " ");
+					$tweet = substr($line, 0, $idx);
+					
+					//initializing first date
+					if($latestDate == NULL){
+						$latestDate = $dateArr[0];
+						$totalScore += $score;
+						//sets the maxPos/maxNeg tweet
+						if($score >= 0){
+							$maxPos["score"] = $score;
+							$maxPos["tweet"] = $tweet;
+						}
+						else{
+							$maxNeg["score"] = $score;
+							$maxNeg["tweet"] = $tweet;
+						}
+					}
+					//if we've past the current date, then create a new row
+					else if($latestDate != NULL && strcmp($latestDate, $dateArr[0]) != 0){
+						//create the string that would display in a mini-window
+						$winStr = "";
+						if($maxPos["tweet"] != NULL)
+							$winStr .= "Most Positive Tweet : ".$maxPos["tweet"];
+						if($maxNeg["tweet"] != NULL)
+							$winStr .= "\nMost Negative Tweet : ".$maxNeg["tweet"];
+							
+						echo("<script text=\"text/javascript\">
+								rows.push(['".$dateArr[0]."',".$totalScore.",\"".$winStr."\"]);
+							  </script>");
+						$latestDate = $dateArr[0];
+						$totalScore = $score;
+						
+						//[re]sets the maxPos and maxNeg tweet
+						if($score >= 0){
+							$maxPos["score"] = $score;
+							$maxPos["tweet"] = $tweet;
+							
+							$maxNeg["score"] = 0;
+							$maxNeg["tweet"] = NULL;
+						}
+						else{
+							$maxNeg["score"] = $score;
+							$maxNeg["tweet"] = $tweet;
+							
+							$maxPos["score"] = 0;
+							$maxPos["tweet"] = NULL;
+						}
+					}
+					else{
+						$totalScore += $score;
+						
+						//sets the maxPos/maxNeg tweet
+						if($score > $maxPos["score"]){
+							$maxPos["score"] = $score;
+							$maxPos["tweet"] = $tweet;
+						}
+						if($score < $maxNeg["score"]){
+							$maxNeg["score"] = $score;
+							$maxNeg["tweet"] = $tweet;
+						}
+					}
+				}
+			} else {
+				echo "ERROR : File Not Found.";
+			} 
+			fclose($file);
+			echo("<script text=\"text/javascript\">
+					alert('DONE LOADING ROWS');
+					if(doneLoadingGoogle)
+						drawChart();
+					else{
+						doneLoadingRows = true;
+						printRowArr();
+					}
+				  </script>");
+		?>
 		<h1 id="team"> ASIAN SENSATION </h1>
 		<div> --GHETTO ASS SEARCH BAR-- </div>
 		
@@ -104,9 +209,5 @@
 				<li>f0r3vr@10ne</li>
 			</ul>
 		</div>
-		
-		<script type="text/javascript">
-			loadPackages();
-		</script>
 	</body>
 </html>
