@@ -1,6 +1,14 @@
 <?php
 require_once('TwitterAPIExchange.php');
 global $settings, $twitter;
+
+class date {
+	public $month;
+	public $day;
+	public $year;
+	public $time;
+} 
+
 $settings = array(
 	'oauth_access_token' => "2822318299-taVXDHTl6kqOVKvk6giWP3ftz3rVi6mVQ6Xqns5",
 	'oauth_access_token_secret' => "EtUKXY6qol06EOmAkgBSxCAvbftJ6D9q3szeX4poTR5No",
@@ -34,7 +42,10 @@ function getID($name) {
 	$id = $arr[0]->id;
 	return $id;
 }
-	
+
+/*
+ * Gets JSON data into array- tweet data. params: id & name of person
+ */
 function getTweets($name, $id) {
 	global $settings, $twitter;
 	$url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
@@ -50,6 +61,24 @@ function getTweets($name, $id) {
 	} catch (Exception $e) {
 		echo("Error  $e");
 	}
-	var_dump($arr);
+	return $arr;
 }
+
+/*
+ * @param Array, tweet object
+ * @returns Date object, date of tweet 
+ */
+function getDate($arr) {
+
+}
+
+/*
+ * Parses JSON object for tweets, gets sentiment object & writes to file with date
+ * @param array of JSON data
+ */
+function parseData($arr) {
+	for 
+}
+
+
 ?>
