@@ -3729,3 +3729,21 @@
 [21-Sep-2014 06:29:07 UTC] PHP Parse error:  syntax error, unexpected 'DONE' (T_STRING) in C:\wamp\www\TweetBeat\graph.php on line 152
 [21-Sep-2014 07:01:50 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER) in C:\wamp\www\TweetBeat\graph.php on line 121
 [21-Sep-2014 07:02:11 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER) in C:\wamp\www\TweetBeat\graph.php on line 121
+[21-Sep-2014 09:52:09 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 09:52:30 UTC] PHP Notice:  Undefined variable: twitter in C:\wamp\www\TweetBeat\index.php on line 46
+[21-Sep-2014 09:52:30 UTC] PHP Stack trace:
+[21-Sep-2014 09:52:30 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 09:52:30 UTC] PHP   2. getProfilePic() C:\wamp\www\TweetBeat\index.php:23
+[21-Sep-2014 09:52:30 UTC] PHP Fatal error:  Call to a member function setGetfield() on a non-object in C:\wamp\www\TweetBeat\index.php on line 46
+[21-Sep-2014 09:52:30 UTC] PHP Stack trace:
+[21-Sep-2014 09:52:30 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 09:52:30 UTC] PHP   2. getProfilePic() C:\wamp\www\TweetBeat\index.php:23
+[21-Sep-2014 10:02:19 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\wamp\www\TweetBeat\index.php on line 28
+[21-Sep-2014 10:02:33 UTC] PHP Parse error:  syntax error, unexpected '$maxID' (T_VARIABLE) in C:\wamp\www\TweetBeat\index.php on line 88
+[21-Sep-2014 10:03:32 UTC] PHP Parse error:  syntax error, unexpected '$maxID' (T_VARIABLE) in C:\wamp\www\TweetBeat\index.php on line 88
+[21-Sep-2014 10:03:41 UTC] PHP Parse error:  syntax error, unexpected '$maxID' (T_VARIABLE) in C:\wamp\www\TweetBeat\index.php on line 88
+[21-Sep-2014 10:04:24 UTC] PHP Parse error:  syntax error, unexpected '$max' (T_VARIABLE) in C:\wamp\www\TweetBeat\index.php on line 88
+[21-Sep-2014 10:12:48 UTC] PHP Notice:  Undefined property: stdClass::$idf in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 10:12:48 UTC] PHP Stack trace:
+[21-Sep-2014 10:12:48 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 10:12:48 UTC] PHP   2. getLastTweetID() C:\wamp\www\TweetBeat\index.php:26

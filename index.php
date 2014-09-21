@@ -1,7 +1,7 @@
 <?php
 include 'textToSentiment.php';
 require_once('TwitterAPIExchange.php');
-global $settings, $twitter, $name;
+global $settings, $twitter, $name, $pic;
 
 class date {
 	public $month;
@@ -20,8 +20,16 @@ $settings = array(
 $twitter = new TwitterAPIExchange($settings);
 $name = "ConanOBrien";
 $id = getID($name);
-$tweets = getTweets($name, $id, 400);
-parseData($tweets);
+$pic = getProfilePic($id, $name);
+
+$tweets = getTweets($name, $id, 20, "-1");
+$maxID = getLastTweetID($tweets);
+var_dump($tweets);
+echo("<br><br>*******************************		id:".$maxID."		**************************************<br><br>");
+$tweets = getTweets($name, $id, 20, $maxID);
+var_dump($tweets);
+
+//parseData($tweets);
 
 
 /*
@@ -30,6 +38,8 @@ parseData($tweets);
  * @return string, URL of profile pic
  */
 function getProfilePic($id, $name) {
+	global $settings, $twitter;
+	
 	$url = "https://api.twitter.com/1.1/users/show.json";
 	$getfield = "?user_id=".$id."&screen_name=".$name;
 	$requestMethod = "GET";
@@ -69,13 +79,23 @@ function getID($name) {
 	return $id;
 }
 
+
 /**
  * Gets JSON data into array- tweet data. params: id, name of person, num of tweets to pull, num < 200
+ * if max ID is -1, gets most recent. Else, gets tweets older than maxID
  */
-function getTweets($name, $id, $num) {
+function getTweets($name, $id, $num, $maxID) {
 	global $settings, $twitter;
+	//$maxID = (int) $maxID;
+	if ($num > 200) {
+		$num = 200;
+	}
+		
 	$url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
 	$getfield = "?count=".$num."&exclude_replies=true&include_rts=false&user_id=".$name."&screen_name=".$name;
+	if (strcmp($maxID,"-1") != 0) {
+		$getfield = $getfield."&max_id=".$maxID;
+	}
 	$requestMethod = "GET";
 	$arr = null;
 	try {
@@ -87,9 +107,20 @@ function getTweets($name, $id, $num) {
 	} catch (Exception $e) {
 		echo("Error  $e");
 	}
+
 	return $arr;
 }
 
+/*
+ * Gets ID of last tweet in array parsed from JSON
+ */
+function getLastTweetID($arr) {
+	$ind = count($arr) - 1;
+	$id = $arr[$ind]->id_str;
+	return $id;
+}
+ 
+ 
 /**
  * @param Array, tweet object
  * @return Date object, date of tweet 
@@ -144,7 +175,13 @@ function cleanTweet($str) {
  */
 function parseData($arr) {
 	$count = 0;
+	$cache = "cache".$name;
+	$flag = file_exists($cache);
 	foreach ($arr as $tweet) {
+		if ($flag == true) {
+			$flag = false;
+			continue;
+		}
 		$date = getTweetDate($tweet);
 		$id = getTweetID($tweet);
 		$str = getTweetText($tweet);
