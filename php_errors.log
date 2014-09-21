@@ -3747,3 +3747,197 @@
 [21-Sep-2014 10:12:48 UTC] PHP Stack trace:
 [21-Sep-2014 10:12:48 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
 [21-Sep-2014 10:12:48 UTC] PHP   2. getLastTweetID() C:\wamp\www\TweetBeat\index.php:26
+[21-Sep-2014 11:16:50 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in C:\wamp\www\TweetBeat\index.php on line 35
+[21-Sep-2014 11:17:11 UTC] PHP Parse error:  syntax error, unexpected ';' in C:\wamp\www\TweetBeat\index.php on line 38
+[21-Sep-2014 11:18:08 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:08 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:08 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:08 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:08 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:08 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:09 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:09 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:09 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:09 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:09 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:09 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:09 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:09 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:09 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:09 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:09 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:09 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:10 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:10 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:10 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:10 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:10 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:10 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:10 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:10 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:10 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:10 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:10 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:10 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:11 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:11 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:11 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:11 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:11 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:11 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:11 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:11 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:11 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:11 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:11 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:11 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:12 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:12 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:12 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:12 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:12 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:12 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:12 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:12 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:12 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:12 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:12 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:12 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:12 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:12 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:12 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:12 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:12 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:12 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:13 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:13 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:13 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:13 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:13 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:13 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:14 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:14 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:14 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:14 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:14 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:14 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:15 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:15 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:15 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:15 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:15 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:15 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:16 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:16 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:16 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:16 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:16 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:16 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:16 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:16 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:16 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:16 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:16 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:16 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:17 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:17 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:17 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:17 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:17 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:17 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:18 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:18 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:18 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:18 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:18 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:18 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:18 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:18 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:18 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:18 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:18 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:18 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:18 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:18 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:18 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:18 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:18 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:18 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:19 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:19 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:19 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:19 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:19 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:19 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:19 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:19 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:19 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:19 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:19 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:19 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:19 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:19 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:19 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:19 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:19 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:19 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:20 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:20 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:20 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:20 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:20 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:20 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:20 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:20 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:20 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:20 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:20 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:20 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:20 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:20 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:20 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:20 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:20 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:20 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:21 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:21 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:21 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:21 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:21 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:21 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:21 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:21 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:21 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:21 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:21 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:21 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:22 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:22 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:22 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:22 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:22 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:22 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:22 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:22 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:22 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:22 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:22 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:22 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:22 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:22 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:22 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:23 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:23 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:23 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:23 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:23 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213
+[21-Sep-2014 11:18:23 UTC] PHP Notice:  Undefined variable: string in C:\wamp\www\TweetBeat\index.php on line 253
+[21-Sep-2014 11:18:23 UTC] PHP Stack trace:
+[21-Sep-2014 11:18:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 11:18:23 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 11:18:23 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:39
+[21-Sep-2014 11:18:23 UTC] PHP   4. getCacheString() C:\wamp\www\TweetBeat\index.php:213

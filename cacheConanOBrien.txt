@@ -1,4 +1,4 @@
-513422728616247296 2014-Sep-20@20:21:32 I was going to buy the iPhone 6 Plus, but I already have a flat-screen TV. negative -0.37809 
+﻿513422728616247296 2014-Sep-20@20:21:32 I was going to buy the iPhone 6 Plus, but I already have a flat-screen TV. negative -0.37809 
 513145263666765824 2014-Sep-20@01:58:59 Scientists discovered fossil evidence of the first swimming dinosaur, and @kingsthings hasn’t thanked me for not making a joke about it. negative -0.21863 
 512668747304140800 2014-Sep-18@18:25:28 iTunes is getting too invasive. Last night I woke up at 3am to find the new U2 album raiding my fridge. negative -0.773865 
 512368579887767552 2014-Sep-17@22:32:43 You might want to stay indoors today, Burbank.  neutral 0 
@@ -198,3 +198,30 @@
 446463683536113665 2014-Mar-20@01:50:11 I’m lovin’ my new Treadmill Bed! positive 0.698475 
 446125221473308672 2014-Mar-19@03:25:16 Just Googled 47 products I would never buy, just to see how fast ads for them pop up on my Facebook page. negative -0.466002 
 445558717497352194 2014-Mar-17@13:54:10 Terrible climate, centuries of oppression, and the gene for alcoholism. Or as I call it, “The luck of the Irish.” negative -0.78434 
+445406428719628288 2014-Mar-17@03:49:02 Everybody is Irish on St. Patrick’s Day, which must make it a living hell for Irish Immigration officials. negative -0.284718 
+445244071280246786 2014-Mar-16@17:03:53 So sad to hear David Brenner passed. He was a frequent &amp; always hilarious guest on my Late Night show. He will be missed. negative -0.206644 
+444897200242319360 2014-Mar-15@18:05:32 Do you think Putin just misunderstood the term “March Madness”? negative -0.35499 
+444634745188519936 2014-Mar-15@00:42:38 An artist puking on @LadyGaga is national news, but no one cares that I drooled on @SofiaVergara? negative -0.781326 
+444552808642007040 2014-Mar-14@19:17:03 Wife really wants to see “300: Rise of an Empire.” Doesn’t she know those hunky actors are playing fast and loose with historical facts? negative -0.308319 
+444163160660910083 2014-Mar-13@17:28:44 Taken right before @AaronPaul_8 taught me how to tie a tie:  positive 0.340573 
+443807811609182209 2014-Mar-12@17:56:42 Forbes released the list of the richest billionaires. Kinda makes you feel bad for the poorest billionaires. negative -0.30035 
+443537912563392514 2014-Mar-12@00:04:13 Massachusetts just banned upskirting. So I guess I won’t be coming home for Easter after all. negative -0.325028 
+443229335797780480 2014-Mar-11@03:38:03 I want to make sure I win if I'm ever on "Celebrity Jeopardy."  neutral 0 
+443096915538739200 2014-Mar-10@18:51:51 Sunday was Daylight Savings Time, so I gained an hour of sunscreen. neutral 0 
+442723417846870016 2014-Mar-09@18:07:42 Driving near Fort Worth, Texas. Best slogan ever for a restaurant:  positive 0.576307 
+442312164515119104 2014-Mar-08@14:53:32 I would love to write “As Seen On PBS’s Antiques Roadshow” next to this convenience store hot dog. positive 0.427565 
+441756043211571201 2014-Mar-07@02:03:42 My son asked me what happens when you die, and I said, “I’m watching Chopped, just google it.” negative -0.251441 
+441226715923111937 2014-Mar-05@15:00:21 I'm excited to host the MTV #MovieAwards on 4/13! I was going to say no, but @Harry_Styles begged me. Please don't ask him to confirm this. positive 0.0871717 
+441045767751335937 2014-Mar-05@03:01:19 Pope Francis's humility reminds me so much of my own. positive 0.468705 
+440700263364456448 2014-Mar-04@04:08:25 I just found out my autocorrect has been programmed by John Travolta. negative -0.742337 
+440287734444212224 2014-Mar-03@00:49:10 I’d like to think I’m the Meryl Streep of spilling dip at Oscar parties. #Oscars2014 positive 0.781611 
+439849615425155072 2014-Mar-01@19:48:14 My guests next week are James Spader, Bill Hader, Ralph Nader, and Darth Vader. negative -0.658946 
+439490305558343681 2014-Feb-28@20:00:28 Please watch the first-ever @WhiteHouse Student Film Fest @ 3:30 ET:  positive 0.33358 
+439459277506244608 2014-Feb-28@17:57:11 Just took the kids to see Philomena in 3D. positive 0.236702 
+439134535146430464 2014-Feb-27@20:26:46 I can’t drink Muscle Milk anymore because I discovered my body is muscle intolerant. negative -0.806704 
+438742397011238912 2014-Feb-26@18:28:33 We’re going to Dallas in late March. I’ll show those women what big hair is all about. positive 0.289148 
+438587737151508480 2014-Feb-26@08:13:59 I find all my best babysitters on Tinder. neutral 0 
+438055443630276608 2014-Feb-24@20:58:51 Just once in my life, I’d like to know the sweet satisfaction of finishing a tube of ChapStick. positive 0.79259 
+437719435940360192 2014-Feb-23@22:43:40 Whenever my children call me "Father," I feel like I'm about to be murdered, in black and white. negative -0.379026 
+437381741406220288 2014-Feb-23@00:21:47 Just took one of those “Which Movie Character Are You?” quizzes and found out I’m the plastic bag from American Beauty. positive 0.485864 
+436931188398100480 2014-Feb-21@18:31:27 How much does Ira Glass charge to narrate a sex tape? negative -0.621264 

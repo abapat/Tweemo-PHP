@@ -19,7 +19,7 @@ $settings = array(
 
 $twitter = new TwitterAPIExchange($settings);
 
-
+search("ConanOBrien");
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -30,11 +30,11 @@ $twitter = new TwitterAPIExchange($settings);
 function search($term) {
 	global $name, $path;
 	$name = $term;
-	$path = "cache".$name.".txt"
+	$path = "cache".$name.".txt";
 	
 	$id = getID($name);
 	$pic = getProfilePic($id, $name);
-	$max_id = getNextID(
+	$max_id = getNextID($path); //gets next tweet to cache, creates file if new cache to be made
 	$tweets = getTweets($name, $id, 50, $max_id);
 	$res = parseData($tweets, 30);
 	//debug
@@ -244,6 +244,7 @@ function writeData($string){
 */
 function getCacheString($arr){
 	$count = 0;
+	$string = "";
 	foreach($arr as &$value){
 		if($count==1){
 			$tweetDate = $arr[1];
@@ -254,7 +255,7 @@ function getCacheString($arr){
 		}
 		$count++;
 	}
-	$string = $string."\n";
+	$string = $string."\r\n";
 	return $string;
 }
 
