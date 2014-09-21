@@ -1,34 +1,15 @@
 
 <html>
 	<head>
-		<title>Welcome to TweetBeat, the Twitter sentiment site!</title>
+		<title>Welcome to TweetBeat, the twitter sentiment site!</title>
 	    <!-- Bootstrap -->
 	    <link href="styles/bootstrap-3.2.0/css/bootstrap.min.css" rel="stylesheet">	
-	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 	    <!-- Custom styles for this template -->
 	    <link href="styles/cover.css" rel="stylesheet">
 
+
 	</head>
-
-
-	<script type="text/javascript">
-    	$(document).ready(function(){
-		    $('#searchButton').click(function(){
-		        var searchValue = $('#searchBar').val();
-		        alert(searchValue);
-		        var ajaxurl = 'process.php';
-		        data =  {'value': searchValue};
-		        $.post(ajaxurl, data, function (response) {
-		            alert("action performed successfully");
-		        });
-		    });
-
-		});
-    </script>
-
-
-
-
 	<body>
 		<div id="clouds">
 				<div class="site-wrapper">
@@ -53,13 +34,13 @@
 			          </div>
 
 			          <div id="searchFormDiv">
-			          	<input type="text" id="searchBar" placeholder="Enter Twitter Handle Here!"/>
-			          	<input text="Search" id="searchButton" type="submit" />
+			          	<input id="searchBar" placeholder="Enter Twitter Handle Here!"/>
+			          	<button id="searchButton">Search</button>
 			          </div>
 
 			              
-			        </div>
-			      </div>
+			            </div>
+			          </div>
 
 			        </div>
 
@@ -83,8 +64,5 @@
 
 <?php
 
-	function completed(){
-		echo "Execution Completed";
-	}
 
 ?>
