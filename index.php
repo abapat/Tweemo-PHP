@@ -21,9 +21,10 @@ $name = "kanyewest";
 $id = getID($name);
 getTweets($name, $id);
 
+
 /*
  * Given a screen name, outputs ID
- */
+*/
 function getID($name) {
 	global $settings, $twitter;
 	$url = "https://api.twitter.com/1.1/users/lookup.json";
@@ -45,7 +46,7 @@ function getID($name) {
 
 /*
  * Gets JSON data into array- tweet data. params: id & name of person
- */
+*/
 function getTweets($name, $id) {
 	global $settings, $twitter;
 	$url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
@@ -67,17 +68,24 @@ function getTweets($name, $id) {
 /*
  * @param Array, tweet object
  * @returns Date object, date of tweet 
- */
+*/ 
 function getDate($arr) {
 
 }
 
+
 /*
  * Parses JSON object for tweets, gets sentiment object & writes to file with date
  * @param array of JSON data
+ * @prerequisite $arr is an array
  */
 function parseData($arr) {
-	for 
+	$string = "";
+	foreach($arr as &$value){
+		$string = $string.$value;
+	}
+	$string = $string."\n";
+	file_put_contents('cache.txt', $string, FILE_APPEND);
 }
 
 
