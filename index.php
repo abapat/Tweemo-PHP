@@ -1,7 +1,7 @@
 <?php
 include 'textToSentiment.php';
 require_once('TwitterAPIExchange.php');
-global $settings, $twitter;
+global $settings, $twitter, $name;
 
 class date {
 	public $month;
@@ -137,8 +137,13 @@ function parseData($arr) {
 		$result[3] = $sentiment->type;
 		$result[4] = $sentiment->score;
 		
-		//print_r($result);
-		writeData($result);
+		$resultString = getCacheString($result);
+		writeData($resultString);
+
+		echo('<br>');
+		echo $resultString;
+		echo('<br>');
+
 		if ($count > 20)
 			break;
 		$count++;
@@ -146,8 +151,28 @@ function parseData($arr) {
 
 }
 
-function writeData($arr){
-	$string = "";
+/*
+* Given a string, it writes the string to the a file for the particular twitter user declared in the
+* Global name identifier. It creates a file if a file for that user doesn't exist, and appends to it 
+* if it does.
+* @param: String to write to file
+*/
+function writeData($string){
+	global $name;
+
+	$filename = "cache".$name.".txt";
+	if (!file_exists($filename)) {
+    	$file = fopen($filename, "a");
+	}
+
+	file_put_contents($filename, $string, FILE_APPEND);
+}
+
+/*
+* Returns the string that needs to be written to the cache file. Modular method for getting the string, can be echoed or
+* written to file.
+*/
+function getCacheString($arr){
 	$count = 0;
 	foreach($arr as &$value){
 		if($count==1){
@@ -160,11 +185,7 @@ function writeData($arr){
 		$count++;
 	}
 	$string = $string."\n";
-	echo('<br>');
-	echo $string;
-	echo('<br>');
-	file_put_contents('cache.txt', $string, FILE_APPEND);
+	return $string;
 }
-
 
 ?>
