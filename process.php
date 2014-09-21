@@ -20,11 +20,10 @@ $settings = array(
 
 $twitter = new TwitterAPIExchange($settings);
 
-
 if (isset($_POST['value'])) {
 	$twitterHandle = $_POST['value'];
     search($twitterHandle);
-}
+} 
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -38,24 +37,20 @@ function search($term) {
 	$path = "cache".$name.".txt";
 	$id = getID($name);
 	$pic = getProfilePic($id, $name);
-	print_r($pic);
-	echo('<br>');
 	$max_id = getNextID($path); //gets next tweet to cache, creates file if new cache to be made
 	$tweets = getTweets($name, $id, 50, $max_id);
-	var_dump($tweets);
-	return;
+	
 	if (!isset($tweets) || count($tweets) < 1) {
 		echo("<script> alert('Bad Twitter Handle'); </script>");
 		return;
 	}
 	$res = parseData($tweets, 30);
-	//debug
-	//var_dump($res);
+	
 }
 
 /*
  * Gets all friends of user
- */
+ 
 function getFriends($name) {
 	$url = "https://api.twitter.com/1.1/friends/ids.json";
 	$getfield = "?screen_name=".$name."&count=5000";
@@ -70,7 +65,7 @@ function getFriends($name) {
 		echo("Error $e");
 	}
 	return $arr;
-}
+} */
 
 /*
  * Gets URL of profile pic
@@ -161,6 +156,7 @@ function getTweets($name, $id, $num, $maxID) {
 
 	return $arr;
 }
+
 
 /*
  * Gets ID of last tweet in array parsed from JSON
