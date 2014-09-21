@@ -226,10 +226,7 @@
 		</script>
 		<?php
 			openfile("cacheConanOBrien.txt");
-		?>
-		<h1 id="team"> ASIAN SENSATION </h1>
-		<div> --GHETTO ASS SEARCH BAR-- </div>
-		
+		?>		
 		<br />
 		<img src = 'https://pbs.twimg.com/profile_images/1132696610/securedownload_normal.jpeg' />
 		<span id="chart_div"></span>
