@@ -14,3 +14,1064 @@
 [21-Sep-2014 01:56:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
 [21-Sep-2014 01:56:24 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
 [21-Sep-2014 01:56:24 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:42 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:28:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:42 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:42 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:42 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:42 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:42 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:42 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:28:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:42 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:42 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:42 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:42 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:42 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:42 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:42 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:42 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:42 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 26
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:43 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:43 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:43 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:43 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 34
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:28:44 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:28:44 UTC] PHP Stack trace:
+[21-Sep-2014 02:28:44 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:28:44 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:22 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:33:22 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:22 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:22 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:22 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:22 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:22 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:22 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:22 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:22 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:22 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:33:22 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:22 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:22 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:22 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:22 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:22 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:22 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:22 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:22 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:22 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:22 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:22 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:22 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:22 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:22 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:22 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:23 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:23 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:24 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:33:24 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:24 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:24 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:24 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:24 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:24 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:24 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:24 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:24 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:24 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:24 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:24 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:33:24 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:24 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:24 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:24 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:24 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:24 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:24 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:24 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:24 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:24 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:24 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:24 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:25 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:33:25 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:25 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:25 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:25 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:25 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:25 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:25 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:25 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:25 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:25 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:25 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:25 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:25 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:25 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:25 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:25 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:25 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:26 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:33:26 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:26 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:26 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:26 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:26 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:26 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:26 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:26 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:26 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:26 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:26 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:26 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:26 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:26 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:26 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:26 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:26 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:26 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:26 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:26 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:26 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:26 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:26 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:26 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:26 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:26 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:26 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:26 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:26 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:26 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:28 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:33:28 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:28 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:28 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:28 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:28 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:33:28 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:28 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:28 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:28 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:33:28 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:33:28 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:28 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:28 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:33:28 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:33:28 UTC] PHP Stack trace:
+[21-Sep-2014 02:33:28 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:33:28 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:38 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:35:38 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:38 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:38 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:38 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:38 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:38 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:38 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:38 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:38 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:38 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:38 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:38 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:38 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:38 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:38 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:38 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:38 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:38 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:35:38 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:38 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:38 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:38 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:38 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:38 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:38 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:38 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:38 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:38 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:38 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:38 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:38 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:38 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:38 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:38 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:38 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:39 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:39 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:39 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:39 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:39 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:39 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:39 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:39 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:39 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:39 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:39 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:39 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:39 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:39 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:39 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:35:39 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:39 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:39 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:39 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:39 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:39 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:39 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:39 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:39 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:40 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:35:40 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:40 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:40 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:40 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:40 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:35:40 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:40 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:40 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:40 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:40 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:40 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:40 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:40 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:40 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:40 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:40 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:40 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:40 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:40 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:40 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:40 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:40 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:41 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:41 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:41 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:41 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:42 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:42 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:42 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:42 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:42 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:35:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:42 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:42 UTC] PHP Notice:  Undefined variable: sentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 35
+[21-Sep-2014 02:35:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:42 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:35:42 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 118
+[21-Sep-2014 02:35:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:35:42 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 119
+[21-Sep-2014 02:35:42 UTC] PHP Stack trace:
+[21-Sep-2014 02:35:42 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:35:42 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:36:56 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:36:56 UTC] PHP Stack trace:
+[21-Sep-2014 02:36:56 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:36:56 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:36:56 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:36:57 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:36:57 UTC] PHP Stack trace:
+[21-Sep-2014 02:36:57 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:36:57 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:36:57 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:37:04 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:37:04 UTC] PHP Stack trace:
+[21-Sep-2014 02:37:04 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:37:04 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:37:04 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:37:05 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:37:05 UTC] PHP Stack trace:
+[21-Sep-2014 02:37:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:37:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:37:05 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:37:05 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:37:05 UTC] PHP Stack trace:
+[21-Sep-2014 02:37:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:37:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:37:05 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:37:05 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:37:05 UTC] PHP Stack trace:
+[21-Sep-2014 02:37:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:37:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:37:05 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:37:05 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:37:05 UTC] PHP Stack trace:
+[21-Sep-2014 02:37:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:37:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:37:05 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:37:06 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:37:06 UTC] PHP Stack trace:
+[21-Sep-2014 02:37:06 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:37:06 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:37:06 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:37:06 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:37:06 UTC] PHP Stack trace:
+[21-Sep-2014 02:37:06 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:37:06 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:37:06 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:37:07 UTC] PHP Notice:  Undefined index: score in C:\wamp\www\TweetBeat\textToSentiment.php on line 28
+[21-Sep-2014 02:37:07 UTC] PHP Stack trace:
+[21-Sep-2014 02:37:07 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:37:07 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:37:07 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:40:35 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 27
+[21-Sep-2014 02:40:35 UTC] PHP Stack trace:
+[21-Sep-2014 02:40:35 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:40:35 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:40:35 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:40:35 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 31
+[21-Sep-2014 02:40:35 UTC] PHP Stack trace:
+[21-Sep-2014 02:40:35 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:40:35 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:40:35 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:43:37 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 32
+[21-Sep-2014 02:43:37 UTC] PHP Stack trace:
+[21-Sep-2014 02:43:37 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:43:37 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:43:37 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 02:43:37 UTC] PHP Notice:  Undefined index: docSentiment in C:\wamp\www\TweetBeat\textToSentiment.php on line 36
+[21-Sep-2014 02:43:37 UTC] PHP Stack trace:
+[21-Sep-2014 02:43:37 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 02:43:37 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 02:43:37 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 03:01:14 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 44
+[21-Sep-2014 03:01:14 UTC] PHP Stack trace:
+[21-Sep-2014 03:01:14 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:01:14 UTC] PHP   2. getID() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 03:01:22 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\wamp\www\TweetBeat\textToSentiment.php on line 16
+[21-Sep-2014 03:01:22 UTC] PHP Stack trace:
+[21-Sep-2014 03:01:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:01:22 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:01:22 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:129
+[21-Sep-2014 03:01:23 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\wamp\www\TweetBeat\textToSentiment.php on line 16
+[21-Sep-2014 03:01:23 UTC] PHP Stack trace:
+[21-Sep-2014 03:01:23 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:01:23 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:01:23 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:129
+[21-Sep-2014 03:01:28 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\wamp\www\TweetBeat\textToSentiment.php on line 16
+[21-Sep-2014 03:01:28 UTC] PHP Stack trace:
+[21-Sep-2014 03:01:28 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:01:28 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:01:28 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:129
+[21-Sep-2014 03:02:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 44
+[21-Sep-2014 03:02:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:02:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:02:05 UTC] PHP   2. getID() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 03:02:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\TweetBeat\index.php on line 123
+[21-Sep-2014 03:02:15 UTC] PHP Stack trace:
+[21-Sep-2014 03:02:15 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:02:15 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:02:22 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 44
+[21-Sep-2014 03:02:22 UTC] PHP Stack trace:
+[21-Sep-2014 03:02:22 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:02:22 UTC] PHP   2. getID() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 03:02:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\TweetBeat\index.php on line 123
+[21-Sep-2014 03:02:32 UTC] PHP Stack trace:
+[21-Sep-2014 03:02:32 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:02:32 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:06:33 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\wamp\www\TweetBeat\textToSentiment.php on line 16
+[21-Sep-2014 03:06:33 UTC] PHP Stack trace:
+[21-Sep-2014 03:06:33 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:06:33 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:06:33 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:130
+[21-Sep-2014 03:06:34 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\wamp\www\TweetBeat\textToSentiment.php on line 16
+[21-Sep-2014 03:06:34 UTC] PHP Stack trace:
+[21-Sep-2014 03:06:34 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:06:34 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:06:34 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:130
+[21-Sep-2014 03:06:38 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\wamp\www\TweetBeat\textToSentiment.php on line 16
+[21-Sep-2014 03:06:38 UTC] PHP Stack trace:
+[21-Sep-2014 03:06:38 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:06:38 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:06:38 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:130
+[21-Sep-2014 03:06:38 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\wamp\www\TweetBeat\textToSentiment.php on line 16
+[21-Sep-2014 03:06:38 UTC] PHP Stack trace:
+[21-Sep-2014 03:06:38 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:06:38 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:06:38 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:130
+[21-Sep-2014 03:06:39 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\wamp\www\TweetBeat\textToSentiment.php on line 16
+[21-Sep-2014 03:06:39 UTC] PHP Stack trace:
+[21-Sep-2014 03:06:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:06:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:06:39 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:130
+[21-Sep-2014 03:06:39 UTC] PHP Notice:  Uninitialized string offset: 0 in C:\wamp\www\TweetBeat\textToSentiment.php on line 16
+[21-Sep-2014 03:06:39 UTC] PHP Stack trace:
+[21-Sep-2014 03:06:39 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:06:39 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:06:39 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:130
+[21-Sep-2014 03:12:59 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:12:59 UTC] PHP Stack trace:
+[21-Sep-2014 03:12:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:12:59 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:12:59 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:12:59 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:12:59 UTC] PHP Stack trace:
+[21-Sep-2014 03:12:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:12:59 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:12:59 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:12:59 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:12:59 UTC] PHP Stack trace:
+[21-Sep-2014 03:12:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:12:59 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:12:59 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:12:59 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:12:59 UTC] PHP Stack trace:
+[21-Sep-2014 03:12:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:12:59 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:12:59 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:12:59 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:12:59 UTC] PHP Stack trace:
+[21-Sep-2014 03:12:59 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:12:59 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:12:59 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:00 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:13:00 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:00 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:00 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:00 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:00 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:00 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:00 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:00 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:00 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:00 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:00 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:00 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:00 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:00 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:00 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:00 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:00 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:00 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:00 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:00 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:13:00 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:00 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:00 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:00 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:00 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:00 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:00 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:00 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:00 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:00 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:00 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:00 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:00 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:00 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:00 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:00 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:00 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:00 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:00 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:00 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:01 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:13:01 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:01 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:01 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:01 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:01 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:01 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:01 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:01 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:01 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:01 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:01 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:01 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:01 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:01 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:01 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:01 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:01 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:01 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:01 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:01 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:01 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:01 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:01 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:01 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:02 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:13:02 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:02 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:02 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:02 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:02 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:02 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:02 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:02 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:02 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:02 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:02 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:02 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:02 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:02 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:02 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:02 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:02 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:02 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:02 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:02 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:02 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:02 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:02 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:02 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:03 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:13:03 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:03 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:03 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:03 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:03 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:03 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:03 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:03 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:03 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:03 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:03 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:03 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:03 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:03 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:03 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:03 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:03 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:03 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:03 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:03 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:13:03 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:03 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:03 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:03 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:03 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:03 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:03 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:03 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:03 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:03 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:03 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:03 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:03 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:03 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:03 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:03 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:03 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:03 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:03 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:04 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:13:04 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:04 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:04 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:04 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:04 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:04 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:04 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:04 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:04 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:04 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:04 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:04 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:04 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:04 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:04 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:04 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:04 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:04 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:04 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:04 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:04 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:04 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:04 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:04 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Undefined index: Date in C:\wamp\www\TweetBeat\index.php on line 155
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:13:05 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 156
+[21-Sep-2014 03:13:05 UTC] PHP Stack trace:
+[21-Sep-2014 03:13:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:13:05 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 03:13:05 UTC] PHP   3. writeData() C:\wamp\www\TweetBeat\index.php:142
+[21-Sep-2014 03:26:47 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\index.php on line 45
+[21-Sep-2014 03:26:47 UTC] PHP Stack trace:
+[21-Sep-2014 03:26:47 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:26:47 UTC] PHP   2. getID() C:\wamp\www\TweetBeat\index.php:22
+[21-Sep-2014 03:26:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\TweetBeat\index.php on line 124
+[21-Sep-2014 03:26:58 UTC] PHP Stack trace:
+[21-Sep-2014 03:26:58 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 03:26:58 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24

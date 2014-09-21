@@ -18,9 +18,9 @@ $settings = array(
 );
 
 $twitter = new TwitterAPIExchange($settings);
-$name = "kanyewest";
+$name = "AlYankovic";
 $id = getID($name);
-$tweets = getTweets($name, $id, 15);
+$tweets = getTweets($name, $id, 100);
 parseData($tweets);
 
 /**
@@ -37,6 +37,7 @@ function getID($name) {
 					 ->buildOauth($url, $requestMethod)
 					 ->performRequest(); 
 		$arr = (json_decode($var));
+		//print_r($arr);
 		
 	} catch (Exception $e) {
 		echo("Error  $e");
@@ -51,7 +52,7 @@ function getID($name) {
 function getTweets($name, $id, $num) {
 	global $settings, $twitter;
 	$url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
-	$getfield = "?count=".$num."&user_id=".$name."&screen_name=".$name;
+	$getfield = "?count=".$num."&exclude_replies=true&include_rts=false&user_id=".$name."&screen_name=".$name;
 	$requestMethod = "GET";
 	$arr = null;
 	try {
@@ -99,6 +100,20 @@ function getTweetText($arr) {
 	$str = $arr->text;
 	return $str;
 }
+
+/*
+ * Cleans links from tweet
+ */
+function cleanTweet($str) {
+	$pos = stripos($str, "http");
+	if ($pos === false) {
+		
+	}
+	else {
+		$str = substr($str, 0, $pos);
+	}
+	return $str;
+}
  
 /**
  * Parses JSON object for tweets, gets sentiment object & writes to file with date
@@ -110,6 +125,10 @@ function parseData($arr) {
 		$date = getTweetDate($tweet);
 		$id = getTweetID($tweet);
 		$str = getTweetText($tweet);
+		$str = cleanTweet($str);
+		if (strlen($str) < 5)
+			continue;
+		//using alchamy
 		$sentiment = getTweetSentiment($str);
 		$result = array();
 		$result[0] = $id;
@@ -118,9 +137,9 @@ function parseData($arr) {
 		$result[3] = $sentiment->type;
 		$result[4] = $sentiment->score;
 		
-		print_r($result);
-		echo('<br>');
-		if ($count > 10)
+		//print_r($result);
+		writeData($result);
+		if ($count > 20)
 			break;
 		$count++;
 	}
@@ -132,7 +151,7 @@ function writeData($arr){
 	$count = 0;
 	foreach($arr as &$value){
 		if($count==1){
-			$tweetDate = $arr["Date"];
+			$tweetDate = $arr[1];
 			$string = $string.($tweetDate->year)."-".($tweetDate->month)."-".($tweetDate->day)."@".($tweetDate->time)." ";
 		}
 		else{
@@ -141,7 +160,9 @@ function writeData($arr){
 		$count++;
 	}
 	$string = $string."\n";
+	echo('<br>');
 	echo $string;
+	echo('<br>');
 	file_put_contents('cache.txt', $string, FILE_APPEND);
 }
 

@@ -11,6 +11,7 @@ class sentiment
 function getTweetSentiment($tweet){
 	require_once 'Alchemy/alchemyapi_php/alchemyapi.php';
 	$alchemyapi = new AlchemyAPI(); //Object that represents the alchemy API
+	
 
 	$firstChar = $tweet[0]; //Gets first character of the tweet
 	$tweetSentiment = new sentiment;
@@ -23,15 +24,21 @@ function getTweetSentiment($tweet){
 	try{
 		
 		$response = $alchemyapi->sentiment("text", $tweet, null); //Send a sentiment alchemy request
-		$tweetSentiment->type = $response["docSentiment"]["type"]; //Set the type 
-		$tweetSentiment->score = $response["docSentiment"]["score"]; //Set the score
+		
+		if (strcmp($response['status'], "ERROR") != 0) {			
+			$tweetSentiment->type = $response['docSentiment']['type']; //Set the type 
+			if (strcmp($tweetSentiment->type, "neutral") == 0)
+				$tweetSentiment->score = 0.00;
+			else
+				$tweetSentiment->score = $response['docSentiment']['score']; //Set the score 
+		}
 	}
 
 	catch(Exception $e){
 		echo 'Caught Exception: ', $e->getMessage(), "\n"; //Catch the exception if the request breaks somehow
 	}
 
-	return $sentiment; // return object
+	return $tweetSentiment; // return object
 }
 
 
