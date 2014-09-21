@@ -23,6 +23,29 @@ $id = getID($name);
 $tweets = getTweets($name, $id, 400);
 parseData($tweets);
 
+
+/*
+ * Gets URL of profile pic
+ * @param userID, screen name
+ * @return string, URL of profile pic
+ */
+function getProfilePic($id, $name) {
+	$url = "https://api.twitter.com/1.1/users/show.json";
+	$getfield = "?user_id=".$id."&screen_name=".$name;
+	$requestMethod = "GET";
+	$arr = null;
+	try {
+		$var = $twitter->setGetfield($getfield)
+					 ->buildOauth($url, $requestMethod)
+					 ->performRequest(); 
+		$arr = (json_decode($var));
+	} catch (Exception $e) {
+		echo("Error $e");
+	}
+	return $arr->profile_image_url;
+
+}
+
 /**
  * Given a screen name, outputs ID
  */
