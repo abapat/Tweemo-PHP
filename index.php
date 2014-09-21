@@ -1,7 +1,7 @@
 <?php
 include 'textToSentiment.php';
 require_once('TwitterAPIExchange.php');
-global $settings, $twitter, $name, $pic;
+global $settings, $twitter, $name, $pic, $path;
 
 class date {
 	public $month;
@@ -18,19 +18,28 @@ $settings = array(
 );
 
 $twitter = new TwitterAPIExchange($settings);
-$name = "ConanOBrien";
-$id = getID($name);
-$pic = getProfilePic($id, $name);
 
-$tweets = getTweets($name, $id, 20, "-1");
-$maxID = getLastTweetID($tweets);
-var_dump($tweets);
-echo("<br><br>*******************************		id:".$maxID."		**************************************<br><br>");
-$tweets = getTweets($name, $id, 20, $maxID);
-var_dump($tweets);
 
-//parseData($tweets);
 
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+/*
+ * Searches for handle and prints semantic analysis to cache
+ */
+function search($term) {
+	global $name, $path;
+	$name = $term;
+	$path = "cache".$name.".txt"
+	
+	$id = getID($name);
+	$pic = getProfilePic($id, $name);
+	$max_id = getNextID(
+	$tweets = getTweets($name, $id, 50, $max_id);
+	$res = parseData($tweets, 30);
+	//debug
+	var_dump($res);
+}
 
 /*
  * Gets URL of profile pic
@@ -171,12 +180,16 @@ function cleanTweet($str) {
  
 /**
  * Parses JSON object for tweets, gets sentiment object & writes to file with date
- * @param array of JSON data
+ * @param array of JSON data, number of tweets to analyze
  */
-function parseData($arr) {
+function parseData($arr, $num) {
+	global $path;
+	
 	$count = 0;
-	$cache = "cache".$name;
-	$flag = file_exists($cache);
+	
+	$flag = file_exists($path);
+	$res = array(); //for debug
+	$ind = 0;
 	foreach ($arr as $tweet) {
 		if ($flag == true) {
 			$flag = false;
@@ -199,16 +212,13 @@ function parseData($arr) {
 		
 		$resultString = getCacheString($result);
 		writeData($resultString);
-
-		echo('<br>');
-		echo $resultString;
-		echo('<br>');
-
-		if ($count > 400)
+		$res[$ind++] = $resultString;
+	
+		if ($count > $num)
 			break;
 		$count++;
 	}
-
+	return $res;
 }
 
 /**
@@ -218,9 +228,9 @@ function parseData($arr) {
 * @param: String to write to file
 */
 function writeData($string){
-	global $name;
+	global $path;
 
-	$filename = "cache".$name.".txt";
+	$filename = $path;
 	if (!file_exists($filename)) {
     	$file = fopen($filename, "a");
 	}
@@ -254,8 +264,12 @@ function getCacheString($arr){
 * @return String representation of oldest ID
 */
 function getNextID($filepath){
+	$exists = file_exists($filepath);
+	if ($exists == false)
+		return "-1";
+	
 	$line = '';
-
+	
 	$f = fopen($filepath, 'r');
 	$cursor = -1;
 
