@@ -1,4 +1,5 @@
 <?php
+include 'textToSentiment.php';
 require_once('TwitterAPIExchange.php');
 global $settings, $twitter;
 
@@ -15,13 +16,14 @@ $settings = array(
 	'consumer_key' => "obpy1PjaH35sNnOztfBhmFyUX",
 	'consumer_secret' => "MCM3hcxhiM09htNE9QzeUzSziaw2JsEcXqOas1pPwrGujKCodx"
 );
-$twitter = new TwitterAPIExchange($settings);
 
+$twitter = new TwitterAPIExchange($settings);
 $name = "kanyewest";
 $id = getID($name);
-getTweets($name, $id);
+$tweets = getTweets($name, $id, 15);
+parseData($tweets);
 
-/*
+/**
  * Given a screen name, outputs ID
  */
 function getID($name) {
@@ -43,13 +45,13 @@ function getID($name) {
 	return $id;
 }
 
-/*
- * Gets JSON data into array- tweet data. params: id & name of person
+/**
+ * Gets JSON data into array- tweet data. params: id, name of person, num of tweets to pull, num < 200
  */
-function getTweets($name, $id) {
+function getTweets($name, $id, $num) {
 	global $settings, $twitter;
 	$url = "https://api.twitter.com/1.1/statuses/user_timeline.json";
-	$getfield = "?count=200&user_id=".$name."&screen_name=".$name;
+	$getfield = "?count=".$num."&user_id=".$name."&screen_name=".$name;
 	$requestMethod = "GET";
 	$arr = null;
 	try {
@@ -64,20 +66,64 @@ function getTweets($name, $id) {
 	return $arr;
 }
 
-/*
+/**
  * @param Array, tweet object
- * @returns Date object, date of tweet 
+ * @return Date object, date of tweet 
  */
-function getDate($arr) {
-
+function getTweetDate($arr) {
+	$str = $arr->created_at;
+	$sArr = explode(" ", $str);
+	$date = new Date();
+	$date->month = $sArr[1];
+	$date->day = $sArr[2];
+	$date->year = $sArr[5];
+	$date->time = $sArr[3];
+	
+	return $date;
 }
 
-/*
+/**
+ * @param Array, tweet object
+ * @return String, ID of tweet
+ */
+function getTweetID($arr) {
+	$id = $arr->id_str;
+	return $id;
+}
+
+/**
+ * @param Array, tweet object
+ * @return String, Tweet text
+ */
+function getTweetText($arr) {
+	$str = $arr->text;
+	return $str;
+}
+ 
+/**
  * Parses JSON object for tweets, gets sentiment object & writes to file with date
  * @param array of JSON data
  */
 function parseData($arr) {
-	for 
+	$count = 0;
+	foreach ($arr as $tweet) {
+		$date = getTweetDate($tweet);
+		$id = getTweetID($tweet);
+		$str = getTweetText($tweet);
+		$sentiment = getTweetSentiment($str);
+		$result = array();
+		$result[0] = $id;
+		$result[1] = $date;
+		$result[2] = $str;
+		$result[3] = $sentiment->type;
+		$result[4] = $sentiment->score;
+		
+		print_r($result);
+		echo('<br>');
+		if ($count > 10)
+			break;
+		$count++;
+	}
 }
 
 

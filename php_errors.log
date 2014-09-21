@@ -1,0 +1,16 @@
+[21-Sep-2014 01:54:08 UTC] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in C:\wamp\www\TweetBeat\index.php on line 22
+[21-Sep-2014 01:54:25 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in C:\wamp\www\TweetBeat\index.php on line 74
+[21-Sep-2014 01:54:25 UTC] PHP Stack trace:
+[21-Sep-2014 01:54:25 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 01:54:25 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 01:54:25 UTC] PHP   3. getTweetDate() C:\wamp\www\TweetBeat\index.php:110
+[21-Sep-2014 01:56:24 UTC] PHP Warning:  require_once(Alchemy/alchemyapi_php/alchemyapi.php): failed to open stream: No such file or directory in C:\wamp\www\TweetBeat\textToSentiment.php on line 12
+[21-Sep-2014 01:56:24 UTC] PHP Stack trace:
+[21-Sep-2014 01:56:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 01:56:24 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 01:56:24 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
+[21-Sep-2014 01:56:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'Alchemy/alchemyapi_php/alchemyapi.php' (include_path='.;C:\php\pear') in C:\wamp\www\TweetBeat\textToSentiment.php on line 12
+[21-Sep-2014 01:56:24 UTC] PHP Stack trace:
+[21-Sep-2014 01:56:24 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[21-Sep-2014 01:56:24 UTC] PHP   2. parseData() C:\wamp\www\TweetBeat\index.php:24
+[21-Sep-2014 01:56:24 UTC] PHP   3. getTweetSentiment() C:\wamp\www\TweetBeat\index.php:113
