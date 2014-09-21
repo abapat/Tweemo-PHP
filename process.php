@@ -2,29 +2,30 @@
 include 'textToSentiment.php';
 include 'index.php';
 require_once('TwitterAPIExchange.php');
-global $settings, $twitter, $name, $pic, $path;
+global $settings, $twitter, $name, $pic, $path, $TweetsPulled, $TweetsAnalyzed;
 
 class date {
 	public $month;
 	public $day;
 	public $year;
 	public $time;
-} 
-
+}
+//******************** 
+$TweetsPulled = 200;
+$TweetsAnalyzed = 200;
+//*********************
 $settings = array(
 	'oauth_access_token' => "2822318299-taVXDHTl6kqOVKvk6giWP3ftz3rVi6mVQ6Xqns5",
 	'oauth_access_token_secret' => "EtUKXY6qol06EOmAkgBSxCAvbftJ6D9q3szeX4poTR5No",
 	'consumer_key' => "obpy1PjaH35sNnOztfBhmFyUX",
 	'consumer_secret' => "MCM3hcxhiM09htNE9QzeUzSziaw2JsEcXqOas1pPwrGujKCodx"
 );
-
 $twitter = new TwitterAPIExchange($settings);
-
 
 if (isset($_POST['value'])) {
 	$twitterHandle = $_POST['value'];
     search($twitterHandle);
-}
+} 
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -33,29 +34,25 @@ if (isset($_POST['value'])) {
  * Searches for handle and prints semantic analysis to cache
  */
 function search($term) {
-	global $name, $path;
+	global $name, $path, $TweetsPulled, $TweetsAnalyzed;
 	$name = $term;
 	$path = "cache".$name.".txt";
 	$id = getID($name);
 	$pic = getProfilePic($id, $name);
-	print_r($pic);
-	echo('<br>');
 	$max_id = getNextID($path); //gets next tweet to cache, creates file if new cache to be made
-	$tweets = getTweets($name, $id, 50, $max_id);
-	var_dump($tweets);
-	return;
+	$tweets = getTweets($name, $id, $TweetsPulled, $max_id);
+	
 	if (!isset($tweets) || count($tweets) < 1) {
 		echo("<script> alert('Bad Twitter Handle'); </script>");
 		return;
 	}
-	$res = parseData($tweets, 30);
-	//debug
-	//var_dump($res);
+	$res = parseData($tweets, $TweetsAnalyzed);
+	
 }
 
 /*
  * Gets all friends of user
- */
+ 
 function getFriends($name) {
 	$url = "https://api.twitter.com/1.1/friends/ids.json";
 	$getfield = "?screen_name=".$name."&count=5000";
@@ -70,7 +67,7 @@ function getFriends($name) {
 		echo("Error $e");
 	}
 	return $arr;
-}
+} */
 
 /*
  * Gets URL of profile pic
@@ -161,6 +158,7 @@ function getTweets($name, $id, $num, $maxID) {
 
 	return $arr;
 }
+
 
 /*
  * Gets ID of last tweet in array parsed from JSON
