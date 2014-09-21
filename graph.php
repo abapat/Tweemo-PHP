@@ -91,6 +91,7 @@
 			loadPackages();
 		</script>
 		<?php
+			include 'index.php';
 			$file = fopen("cacheConanOBrien.txt", "r") or die("Unable to open file!");
 			if ($file) {
 				$latestDate = NULL;
@@ -127,8 +128,6 @@
 					$idx = strrpos($line, " ");
 					$tweet = substr($line, 0, $idx);
 					
-					echo("ID : ".$id."DATE : ".$date." SCORE : ".$score." TWEET : ".$tweet."<br />");
-					
 					//initializing first date
 					if($latestDate == NULL){
 						$latestDate = $dateArr[0];
@@ -151,8 +150,12 @@
 							$winStr .= "Most Positive Tweet : ".$maxPos["tweet"];
 						if($totalScore < 0)
 							$winStr .= "Most Negative Tweet : ".$maxNeg["tweet"];
+							
+						
+						echo("ID : ".$id."DATE : ".$date." SCORE : ".$score." TWEET : ".$tweet."<br />");
+					
 						echo("<script text=\"text/javascript\">
-								rows.push(['".$dateArr[0]."',".($totalScore/($count+1)).",\"".$winStr."\"]);
+								rows.push(['".$latestDate."',".($totalScore/($count+1)).",\"".(str_replace("\"","&quot;",$winStr))."\"]);
 							  </script>");
 						$latestDate = $dateArr[0];
 						$totalScore = $score;
