@@ -105,6 +105,7 @@
 				}
 			}
 			
+			function 
 		</script>
 		<?php
 			function openFile($filename){
@@ -128,8 +129,8 @@
 						$line = substr($line, $idx+1, strlen($line));
 						$dateArr = explode("@", $date);
 						//alters $dateArr[0] so that the graph aggregates data monthly
-						$idx = strrpos($dateArr[0], "-");
-						$dateArr[0] = substr($dateArr[0], 0, $idx);
+						//$idx = strrpos($dateArr[0], "-");
+						//$dateArr[0] = substr($dateArr[0], 0, $idx);
 						
 						//gets the score
 						$idx = strrpos($line, " ");
@@ -189,6 +190,7 @@
 								$maxPos["score"] = 0;
 								$maxPos["tweet"] = "";
 							}
+							$count = 0;
 						}
 						else{
 							$totalScore += $score;

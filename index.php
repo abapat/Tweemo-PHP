@@ -110,6 +110,8 @@
 
 				chart.draw(data, options);
 				google.visualization.events.addListener(chart, 'select', selectHandler	); 
+				
+				setTotalCount();
 			}
 			
 			//creates a pop-up when a dot is selected
@@ -118,17 +120,17 @@
 				if (selectedItem) {
 					var twtArr = tweets[selectedItem.row];
 					document.getElementById("count").innerHTML="Number of Tweets : "+twtArr[0];
-					if(twtArr[0] !=""){
+					if(twtArr[1] !=""){
 						document.getElementById("negMsg").innerHTML="Most Negative Tweet : "+twtArr[1];
-						document.getElementById("negScore").innerHTML=twtArr[2];
+						document.getElementById("negScore").innerHTML="Sentiment : "+twtArr[2];
 					}
 					else{
 						document.getElementById("negMsg").innerHTML="";
 						document.getElementById("negScore").innerHTML="";
 					}
-					if(twtArr[2] != ""){
+					if(twtArr[3] != ""){
 						document.getElementById("posMsg").innerHTML="Most Positive Tweet : "+twtArr[3];
-						document.getElementById("posScore").innerHTML=""+twtArr[4];
+						document.getElementById("posScore").innerHTML="Sentiment : "+twtArr[4];
 					}
 					else{
 						document.getElementById("posMsg").innerHTML="";
@@ -137,6 +139,12 @@
 				}
 			}
 			
+			function setTotalCount(){
+				var total = 0;
+				for(i = 0; i < tweets.length; i++)
+					total += tweets[i][0];
+				document.getElementById("totalCount").innerHTML = "Total Tweets : "+total;
+			}
 		</script>
 
 		<!-- ********************* PHP STARTS HERE *************************** -->
@@ -306,6 +314,8 @@
 					<br />
 					<br />
 					
+					<div id="totalCount"></div>
+					<br />
 					<div id="count"></div>
 					<ul id="tweets">
 						<li id="negMsg">
@@ -324,18 +334,12 @@
 				</div>
 
 		</div>
-
-			    </div>
-
-				<div class="cloud x1"></div>
-				<!-- Time for multiple clouds to dance around -->
-				<div class="cloud x2"></div>
-				<div class="cloud x3"></div>
-				<div class="cloud x4"></div>
-				<div class="cloud x5"></div>
-		</div>
-
-		</div>
+		<div class="cloud x1"></div>
+		<!-- Time for multiple clouds to dance around -->
+		<div class="cloud x2"></div>
+		<div class="cloud x3"></div>
+		<div class="cloud x4"></div>
+		<div class="cloud x5"></div>
   </body>
 </html>
 
