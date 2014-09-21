@@ -1,34 +1,41 @@
 <?php 
+/**
+	Object that encapsulates the sentiment of a tweet 
+*/
+class sentiment
+{
+	public $score=""; //The score the tweet has recieved between 1->-1
+	public $type=""; //The type of tweet, positve, negative, neutral
+}
 
 function getTweetSentiment($tweet){
 	require_once 'Alchemy/alchemyapi_php/alchemyapi.php';
-	$alchemyapi = new AlchemyAPI();
+	$alchemyapi = new AlchemyAPI(); //Object that represents the alchemy API
 
-	$firstChar = $tweet[0];
+	$firstChar = $tweet[0]; //Gets first character of the tweet
+	$tweetSentiment = new sentiment;
 
-
-	if($firstChar == 'R' || $firstChar == '@'){
+	if($firstChar == 'R' || $firstChar == '@'){ //If it's retweet or mention, get to the meat of the tweet
 		$colonIndex = strpos($tweet, ':');
 		$tweet = substr($tweet, $colonIndex+1);
 	}
 
 	try{
-		$response = $alchemyapi->sentiment("text", $tweet, null);
-		echo "Sentiment: ", $response["docSentiment"]["type"], " Score: ", $response["docSentiment"]["score"]."<br/>";
+		
+		$response = $alchemyapi->sentiment("text", $tweet, null); //Send a sentiment alchemy request
+		$tweetSentiment->type = $response["docSentiment"]["type"]; //Set the type 
+		$tweetSentiment->score = $response["docSentiment"]["score"]; //Set the score
 	}
+
 	catch(Exception $e){
-		echo 'Caught Exception: ', $e->getMessage(), "\n";
+		echo 'Caught Exception: ', $e->getMessage(), "\n"; //Catch the exception if the request breaks somehow
 	}
 
-
+	return $sentiment; // return object
 }
 
 
 function getNumHashTags($line){
-	$multiplier = 1;
-	if(strpos($line,'RT')){
-		$multiplier = 2;
-	}
 	return substr_count($line, '#');
 }
 
