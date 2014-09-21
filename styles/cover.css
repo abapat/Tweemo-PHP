@@ -1,4 +1,13 @@
 /*
+* Personal implementation code
+*/
+#searchBar{
+  height: 25px;
+  width: 300px;
+}
+
+
+/*
  * Globals
  */
 
@@ -6,7 +15,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #333;
 }
 
 /* Custom default button */
@@ -15,7 +24,7 @@ a:hover {
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #000099;
+  background-color: #00000D;
   color: #fff;
   border: 1px solid #fff;
 }
@@ -31,7 +40,7 @@ body {
   /*background-color: #333;*/
 }
 body {
-  color: #3b5998;
+  color: #0084b4;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
@@ -86,14 +95,14 @@ body {
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #a9a9a9;
+  border-bottom-color: #0084b4;
   border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #0084b4;
+  border-bottom-color: #0084b4;
 }
 
 @media (min-width: 768px) {
