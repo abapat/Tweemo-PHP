@@ -75,13 +75,13 @@
 				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 
 				chart.draw(data, options);
-				google.visualization.events.addListener(chart, 'select', selectHandler); 
+				google.visualization.events.addListener(chart, 'select', function(){alert("alert");}); 
 			}
 			
 			//creates a pop-up when a dot is selected
-			function selectHandler() {
-				alert('A table row was selected');
-			}
+			//function selectHandler() {
+				//alert('A table row was selected');
+			//}
 			
 			
 		</script>
@@ -91,10 +91,11 @@
 			loadPackages();
 		</script>
 		<?php
-			$file = fopen("cache.txt", "r") or die("Unable to open file!");
+			$file = fopen("cacheConanOBrien.txt", "r") or die("Unable to open file!");
 			if ($file) {
 				$latestDate = NULL;
 				$totalScore = 0;
+				$count = 0;
 				$maxPos = array("score"=>0, "tweet"=>NULL);
 				$maxNeg = array("score"=>0, "tweet"=>NULl);
 				
@@ -109,6 +110,9 @@
 					$date = substr($line, 0, $idx);
 					$line = substr($line, $idx+1, strlen($line));
 					$dateArr = explode("@", $date);
+					//alters $dateArr[0] so that the graph aggregates data monthly
+					$idx = strrpos($dateArr[0], "-");
+					$dateArr[0] = substr($dateArr[0], 0, $idx);
 					
 					//gets the score
 					$idx = strrpos($line, " ");
@@ -122,6 +126,8 @@
 					//gets the tweet
 					$idx = strrpos($line, " ");
 					$tweet = substr($line, 0, $idx);
+					
+					echo("ID : ".$id."DATE : ".$date." SCORE : ".$score." TWEET : ".$tweet."<br />");
 					
 					//initializing first date
 					if($latestDate == NULL){
@@ -141,13 +147,12 @@
 					else if($latestDate != NULL && strcmp($latestDate, $dateArr[0]) != 0){
 						//create the string that would display in a mini-window
 						$winStr = "";
-						if($maxPos["tweet"] != NULL)
+						if($totalScore > 0)
 							$winStr .= "Most Positive Tweet : ".$maxPos["tweet"];
-						if($maxNeg["tweet"] != NULL)
-							$winStr .= "\nMost Negative Tweet : ".$maxNeg["tweet"];
-							
+						if($totalScore < 0)
+							$winStr .= "Most Negative Tweet : ".$maxNeg["tweet"];
 						echo("<script text=\"text/javascript\">
-								rows.push(['".$dateArr[0]."',".$totalScore.",\"".$winStr."\"]);
+								rows.push(['".$dateArr[0]."',".($totalScore/($count+1)).",\"".$winStr."\"]);
 							  </script>");
 						$latestDate = $dateArr[0];
 						$totalScore = $score;
@@ -170,7 +175,7 @@
 					}
 					else{
 						$totalScore += $score;
-						
+						$count++;
 						//sets the maxPos/maxNeg tweet
 						if($score > $maxPos["score"]){
 							$maxPos["score"] = $score;
@@ -186,13 +191,12 @@
 				echo "ERROR : File Not Found.";
 			} 
 			fclose($file);
+			//finished processing all rows; if we're connected to the google packages then render the graph
 			echo("<script text=\"text/javascript\">
-					alert('DONE LOADING ROWS');
 					if(doneLoadingGoogle)
 						drawChart();
 					else{
 						doneLoadingRows = true;
-						printRowArr();
 					}
 				  </script>");
 		?>
@@ -202,7 +206,7 @@
 		<br />
 		<img src = 'https://pbs.twimg.com/profile_images/1132696610/securedownload_normal.jpeg' />
 		<span id="chart_div"></span>
-		
+		<div id="tweets"> </div>
 		<div id="friendsList"> --BESTIES-- 
 			<ul>
 				<li>MOM</li>
