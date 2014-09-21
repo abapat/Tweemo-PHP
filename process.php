@@ -1,4 +1,4 @@
-f<?php
+<?php
 include 'textToSentiment.php';
 include 'index.php';
 require_once('TwitterAPIExchange.php');
@@ -26,6 +26,7 @@ if (isset($_POST['value'])) {
 }
 
 
+
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 /*
@@ -35,7 +36,6 @@ function search($term) {
 	global $name, $path;
 	$name = $term;
 	$path = "cache".$name.".txt";
-	
 	$id = getID($name);
 	$pic = getProfilePic($id, $name);
 	$max_id = getNextID($path); //gets next tweet to cache, creates file if new cache to be made
@@ -88,7 +88,7 @@ function getID($name) {
 					 ->buildOauth($url, $requestMethod)
 					 ->performRequest(); 
 		$arr = (json_decode($var));
-		print_r($arr);
+		//print_r($arr);
 		if (isset($arr->errors)) {
 			error($arr->errors);
 			return;

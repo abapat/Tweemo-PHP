@@ -4258,3 +4258,8 @@
 [21-Sep-2014 12:14:58 UTC] PHP   2. search() C:\wamp\www\TweetBeat\index.php:22
 [21-Sep-2014 12:14:58 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\index.php:44
 [21-Sep-2014 12:14:58 UTC] PHP   4. getTweetText() C:\wamp\www\TweetBeat\index.php:216
+[21-Sep-2014 13:52:58 UTC] PHP Notice:  Trying to get property of non-object in C:\wamp\www\TweetBeat\process.php on line 95
+[21-Sep-2014 13:52:58 UTC] PHP Stack trace:
+[21-Sep-2014 13:52:58 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\process.php:0
+[21-Sep-2014 13:52:58 UTC] PHP   2. search() C:\wamp\www\TweetBeat\process.php:22
+[21-Sep-2014 13:52:58 UTC] PHP   3. getID() C:\wamp\www\TweetBeat\process.php:35

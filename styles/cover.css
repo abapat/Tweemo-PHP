@@ -9,6 +9,7 @@
   font-size: 14px;
   font-weight: 400;
   width: 495px;
+  color: black;
 }
 
 #searchFormDiv{
@@ -21,11 +22,13 @@
   border-radius: 5px;
   font-size: 14px;
   width: 70px;
-  background-color: #333;
+  background-color: #232C91;
   color: #fff;
 }
 
-
+.cover-heading {
+	text-shadow: none;
+}
 /*
  * Globals
  */
@@ -63,6 +66,10 @@ body {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   overflow-x: hidden;
+}
+
+.lead {
+	font-family: verdana;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
