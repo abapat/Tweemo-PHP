@@ -342,7 +342,8 @@
 
 
 <?php
-
+	
+	
 	function echoString($string){
 		echo $string;
 	}

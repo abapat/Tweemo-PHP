@@ -2,7 +2,7 @@
 include 'textToSentiment.php';
 include 'index.php';
 require_once('TwitterAPIExchange.php');
-global $settings, $twitter, $name, $pic, $path, $TweetsPulled, $TweetsAnalyzed;
+global $settings, $twitter, $name, $pic, $path, $TweetsPulled, $TweetsAnalyzed, $tweets;
 
 class date {
 	public $month;
@@ -11,8 +11,8 @@ class date {
 	public $time;
 }
 //******************** 
-$TweetsPulled = 200;
-$TweetsAnalyzed = 200;
+$TweetsPulled = 100;
+$TweetsAnalyzed = 30;
 //*********************
 $settings = array(
 	'oauth_access_token' => "2822318299-taVXDHTl6kqOVKvk6giWP3ftz3rVi6mVQ6Xqns5",
@@ -34,13 +34,16 @@ if (isset($_POST['value'])) {
  * Searches for handle and prints semantic analysis to cache
  */
 function search($term) {
-	global $name, $path, $TweetsPulled, $TweetsAnalyzed;
+	global $name, $path, $TweetsPulled, $TweetsAnalyzed, $tweets;
+	
 	$name = $term;
 	$path = "cache".$name.".txt";
 	$id = getID($name);
 	$pic = getProfilePic($id, $name);
 	$max_id = getNextID($path); //gets next tweet to cache, creates file if new cache to be made
 	$tweets = getTweets($name, $id, $TweetsPulled, $max_id);
+	
+	
 	
 	if (!isset($tweets) || count($tweets) < 1) {
 		echo("<script> alert('Bad Twitter Handle'); </script>");
@@ -252,6 +255,7 @@ function parseData($arr, $num) {
 		$result[4] = $sentiment->score;
 		
 		$resultString = getCacheString($result);
+		writeInfo($result);
 		writeData($resultString);
 		$res[$ind++] = $resultString;
 	
@@ -260,6 +264,20 @@ function parseData($arr, $num) {
 		$count++;
 	}
 	return $res;
+}
+
+function writeInfo($res) {
+	$str = "Name: " .$name. "\tMonth: " . $result[1]->month . "\tScore: " . $res[4] . "\r\nTweet: " . $res[2] . "\r\n\r\n";
+	write($str);
+}
+
+function write($str) {
+	$filename = "TweetData.txt";
+	if (!file_exists($filename)) {
+    	$file = fopen($filename, "a");
+	}
+
+	file_put_contents($filename, $string, FILE_APPEND);
 }
 
 /**
