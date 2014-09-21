@@ -27,8 +27,7 @@
 			function setChart(){
 				data = new google.visualization.DataTable();
 				data.addColumn('string', 'Month');
-				data.addColumn('number', 'USER');
-				data.addColumn({type: 'string', role: 'tooltip'});
+				data.addColumn('number', 'Feeling');
 				
 				options = {
 					backgroundColor: 'white',
@@ -49,7 +48,8 @@
 						title: 'Month',
 						gridlines: {color: 'blue'},
 						titleTextStyle: {color: 'blue'},
-						textStyle: {color: 'cornflowerblue'}
+						textStyle: {color: 'cornflowerblue'},
+						slantedTextAngle: 90
 					},
 					legend: {
 						textStyle: {color: 'blue'},
@@ -57,6 +57,7 @@
 					legend: {
 						position: 'none'
 					},
+					series: {0:{color:'#F38921'}},
 					titleTextStyle: {
 						color: 'black',
 						fontSize: 24
@@ -87,7 +88,7 @@
 					var twtArr = tweets[selectedItem.row];
 					if(twtArr[0] !=""){
 						document.getElementById("negMsg").innerHTML="Most Negative Tweet : "+twtArr[0];
-						document.getElementById("negScore").innerHTML=twtArr[1];
+						document.getElementById("negScore").innerHTML="Feeling : "+twtArr[1];
 					}
 					else{
 						document.getElementById("negMsg").innerHTML="";
@@ -95,7 +96,7 @@
 					}
 					if(twtArr[2] != ""){
 						document.getElementById("posMsg").innerHTML="Most Positive Tweet : "+twtArr[2];
-						document.getElementById("posScore").innerHTML=""+twtArr[3];
+						document.getElementById("posScore").innerHTML="Feeling : "+twtArr[3];
 					}
 					else{
 						document.getElementById("posMsg").innerHTML="";
@@ -168,7 +169,7 @@
 								
 							echo("<script text=\"text/javascript\">
 									tweets.push([\"".$maxNeg["tweet"]."\", ".$maxNeg["score"].", \"".$maxPos["tweet"]."\", ".$maxPos["score"]."]);
-									rows.push(['".$latestDate."',".($totalScore/($count+1)).",\"".($winStr)."\"]);
+									rows.push(['".$latestDate."',".($totalScore/($count+1))."]);
 								  </script>");
 							$latestDate = $dateArr[0];
 							$totalScore = $score;

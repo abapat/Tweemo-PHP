@@ -12,7 +12,6 @@
 			img{display:inline-block; float:left; height:300px; margin-top:75px; margin-left:50px;}
 			#chart_div{width:100%; height:500px; display:inline-block; margin-left:auto; margin-right:auto;}
 			ul{list-style-type:none;}
-			#tweets{margin-top:500px;}
 		</style>
 
 	 </head>
@@ -118,17 +117,18 @@
 				var selectedItem = chart.getSelection()[0];
 				if (selectedItem) {
 					var twtArr = tweets[selectedItem.row];
+					document.getElementById("count").innerHTML="Number of Tweets : "+twtArr[0];
 					if(twtArr[0] !=""){
-						document.getElementById("negMsg").innerHTML="Most Negative Tweet : "+twtArr[0];
-						document.getElementById("negScore").innerHTML=twtArr[1];
+						document.getElementById("negMsg").innerHTML="Most Negative Tweet : "+twtArr[1];
+						document.getElementById("negScore").innerHTML=twtArr[2];
 					}
 					else{
 						document.getElementById("negMsg").innerHTML="";
 						document.getElementById("negScore").innerHTML="";
 					}
 					if(twtArr[2] != ""){
-						document.getElementById("posMsg").innerHTML="Most Positive Tweet : "+twtArr[2];
-						document.getElementById("posScore").innerHTML=""+twtArr[3];
+						document.getElementById("posMsg").innerHTML="Most Positive Tweet : "+twtArr[3];
+						document.getElementById("posScore").innerHTML=""+twtArr[4];
 					}
 					else{
 						document.getElementById("posMsg").innerHTML="";
@@ -209,7 +209,7 @@
 								$winStr .= "Most Negative Tweet : ".$maxNeg["tweet"];
 								
 							echo("<script text=\"text/javascript\">
-									tweets.push([\"".$maxNeg["tweet"]."\", ".$maxNeg["score"].", \"".$maxPos["tweet"]."\", ".$maxPos["score"]."]);
+									tweets.push([".($count+1).",\"".$maxNeg["tweet"]."\", ".$maxNeg["score"].", \"".$maxPos["tweet"]."\", ".$maxPos["score"]."]);
 									rows.push(['".$latestDate."',".($totalScore/($count+1))."]);
 								  </script>");
 							$latestDate = $dateArr[0];
@@ -230,6 +230,7 @@
 								$maxPos["score"] = 0;
 								$maxPos["tweet"] = "";
 							}
+							$count = 0;
 						}
 						else{
 							$totalScore += $score;
@@ -304,6 +305,8 @@
 					<span id="chart_div"></span>
 					<br />
 					<br />
+					
+					<div id="count"></div>
 					<ul id="tweets">
 						<li id="negMsg">
 						</li>
@@ -318,9 +321,9 @@
 					</ul>
 			      </div>
 
-			        </div>
+				</div>
 
-			      </div>
+		</div>
 
 			    </div>
 
