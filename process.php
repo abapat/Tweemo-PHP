@@ -1,5 +1,6 @@
 <?php
 include 'textToSentiment.php';
+include 'index.php';
 require_once('TwitterAPIExchange.php');
 global $settings, $twitter, $name, $pic, $path;
 
@@ -18,7 +19,12 @@ $settings = array(
 );
 
 $twitter = new TwitterAPIExchange($settings);
-search("VarunForTheHill");
+
+
+if (isset($_POST['value'])) {
+	$twitterHandle = $_POST['value'];
+    search($twitterHandle);
+}
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
