@@ -18,9 +18,9 @@ $settings = array(
 );
 
 $twitter = new TwitterAPIExchange($settings);
-$name = "AlYankovic";
+$name = "ConanOBrien";
 $id = getID($name);
-$tweets = getTweets($name, $id, 100);
+$tweets = getTweets($name, $id, 400);
 parseData($tweets);
 
 /**
@@ -144,14 +144,14 @@ function parseData($arr) {
 		echo $resultString;
 		echo('<br>');
 
-		if ($count > 20)
+		if ($count > 400)
 			break;
 		$count++;
 	}
 
 }
 
-/*
+/**
 * Given a string, it writes the string to the a file for the particular twitter user declared in the
 * Global name identifier. It creates a file if a file for that user doesn't exist, and appends to it 
 * if it does.
@@ -168,7 +168,7 @@ function writeData($string){
 	file_put_contents($filename, $string, FILE_APPEND);
 }
 
-/*
+/** 
 * Returns the string that needs to be written to the cache file. Modular method for getting the string, can be echoed or
 * written to file.
 */
