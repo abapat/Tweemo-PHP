@@ -20,13 +20,11 @@
     	$(document).ready(function(){
    
 		    $('#searchButton').click(function(){
-		    	alert("here");
 		        var searchValue = $('#searchBar').val();
 		        var ajaxurl = 'process.php';
 		        $('#chart_div').show();
 		        data =  {'value': searchValue};
 		        $.post(ajaxurl, data, function (response) {
-		        	
 		        	window.open("/TweetBeat/index.php?search="+searchValue, "_self");
 		        });
 		        //ajaxurl = 'index.php';
