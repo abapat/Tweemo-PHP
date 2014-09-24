@@ -1,0 +1,5 @@
+[24-Sep-2014 03:47:35 UTC] PHP Warning:  fopen(Cache Files/cacheGordonRamsay.txt): failed to open stream: No such file or directory in C:\wamp\www\TweetBeat\index.php on line 31
+[24-Sep-2014 03:47:35 UTC] PHP Stack trace:
+[24-Sep-2014 03:47:35 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\index.php:0
+[24-Sep-2014 03:47:35 UTC] PHP   2. openFile() C:\wamp\www\TweetBeat\index.php:26
+[24-Sep-2014 03:47:35 UTC] PHP   3. fopen() C:\wamp\www\TweetBeat\index.php:31
