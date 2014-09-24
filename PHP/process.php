@@ -1,6 +1,5 @@
 <?php
 include 'textToSentiment.php';
-include 'index.php';
 require_once('TwitterAPIExchange.php');
 global $settings, $twitter, $name, $pic, $path, $TweetsPulled, $TweetsAnalyzed, $tweets;
 
@@ -21,11 +20,12 @@ $settings = array(
 	'consumer_secret' => "MCM3hcxhiM09htNE9QzeUzSziaw2JsEcXqOas1pPwrGujKCodx"
 );
 $twitter = new TwitterAPIExchange($settings);
-
+/*
 if (isset($_POST['value'])) {
 	$twitterHandle = $_POST['value'];
     search($twitterHandle);
-} 
+}
+*/
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,7 +37,7 @@ function search($term) {
 	global $name, $path, $TweetsPulled, $TweetsAnalyzed, $tweets;
 	
 	$name = $term;
-	$path = "cache".$name.".txt";
+	$path = "Cache Files/cache".$name.".txt";
 	$id = getID($name);
 	$pic = getProfilePic($id, $name);
 	$max_id = getNextID($path); //gets next tweet to cache, creates file if new cache to be made

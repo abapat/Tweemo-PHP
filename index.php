@@ -15,12 +15,37 @@
 			#chart_div{width:100%; height:500px; display:inline-block; margin-left:auto; margin-right:auto;}
 			ul{list-style-type:none;}
 		</style>
+		<script type="text/javascript">
+			$(document).ready(function(){
 
+				$( document ).ajaxComplete(function() { //Function used to see if ajax request fires
+				  //alert("ajax complete!");
+				});
+
+			    $('#searchButton').click(function(){
+			        var searchValue = $('#searchBar').val();
+			        //var ajaxurl = 'PHP/process.php';
+			        var ajaxurl = 'index.php';
+			        $('#chart_div').show();
+			        data =  {'value': searchValue};
+			        $.post(ajaxurl, data, function (response) {
+			        	window.open("/TweetBeat/index.php?search="+searchValue, "_self");
+			        });
+			    });
+			});
+		</script>
 	</head>
 
 
 	<!--################### PHP Starts ################### -->
 	<?php
+		include 'PHP/process.php';
+
+		if (isset($_POST['value'])) {
+			$twitterHandle = $_POST['value'];
+		    search($twitterHandle);
+		}
+
 		if (isset($_GET['search'])) {
 			$twitterHandle = $_GET['search'];
 			openFile("Cache Files/cache".$twitterHandle.".txt");
@@ -150,6 +175,7 @@
 
 			        <div class="cover-container">
 			        <!--
+			          POTENTIALLY USEFUL NAVBAR CODE
 			          <div class="masthead clearfix">
 			            <div class="inner">
 			              <h3 class="masthead-brand">TweetBeat</h3>

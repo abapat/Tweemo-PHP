@@ -1,16 +1,3 @@
-$(document).ready(function(){
-
-    $('#searchButton').click(function(){
-        var searchValue = $('#searchBar').val();
-        var ajaxurl = 'PHP/process.php';
-        $('#chart_div').show();
-        data =  {'value': searchValue};
-        $.post(ajaxurl, data, function (response) {
-        	window.open("/TweetBeat/index.php?search="+searchValue, "_self");
-        });
-    });
-});
-
 var data, options;
 var rows = new Array();
 var doneLoadingGoogle = false;
