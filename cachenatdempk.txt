@@ -1,0 +1,77 @@
+513292141540671488 2014-Sep-20@11:42:37 Brainstorming/napping before #unhackathon w/ @ZackHickman  negative -0.250044 
+512263999027941376 2014-Sep-17@15:37:09 One of my favorite things about @arstechnica is their thorough OS reviews; always quality. positive 0.861031 
+511932594368548864 2014-Sep-16@17:40:16 eclipse doesn't support visual line wrapping? is this some kind of cruel joke? negative -0.765252 
+497281443773812736 2014-Aug-07@07:21:49 TIL never search reddit for medical procedures negative -0.54838 
+495326066249318400 2014-Aug-01@21:51:51 Arrange the blocks in new and exciting ways positive 0.662828 
+495222058385952768 2014-Aug-01@14:58:34 Also images on Twitter profiles are displayed newest  oldest but when you tap on them its oldest  newest... Is ux this hard? negative -0.431708 
+495221100088131584 2014-Aug-01@14:54:45 I also wish Facebook messenger would sync read status with the desktop site... neutral 0 
+495220469084454912 2014-Aug-01@14:52:15 I wish twitter would sync notifications across devices. I also wish taping a notification would mark it as read on Android. negative -0.337876 
+494636617278455809 2014-Jul-31@00:12:14 ITS HAPPENING  neutral 0 
+493239538618474496 2014-Jul-27@03:40:44 CHOOSE_MIN_SIZE_HIGHEST_MIN what does this variable mean...? negative -0.458321 
+492681460378107904 2014-Jul-25@14:43:08 Always very satisfying to run for a train and make it positive 0.784267 
+492680406983249921 2014-Jul-25@14:38:57 Yay twitter app is fixed for L preview positive 0.778156 
+491255603776745472 2014-Jul-21@16:17:17 Good post answering "what does pythonic mean?"  positive 0.290455 
+490302036043657217 2014-Jul-19@01:08:09 This is why you never buy from @BestBuy , supposed "grade a" refurbished monitor after a week of use...  negative -0.522013 
+490242207689891840 2014-Jul-18@21:10:25 Also probably an inverse correlation between technical prereqs for a post and discussion generated positive 0.374707 
+490168414594678784 2014-Jul-18@16:17:11 A bunch of stuff posted to HN could probably use a comment detailing the knowledge prereqs for the post positive 0.265032 
+490152329232916481 2014-Jul-18@15:13:16 MBTA pls neutral 0 
+487930874273759232 2014-Jul-12@12:06:00 Jungle - Jungle is probably the album of the summer so far, if you like stuff like Bonobo or Maribou State positive 0.362679 
+487040274200530944 2014-Jul-10@01:07:04 apparently you can't return things to @BestBuy the same day you receive them, I can see why they're dying... negative -0.755539 
+484806322589011968 2014-Jul-03@21:10:09 Also if you use android, Pocket Casts is the way to go, a great app worth purchasing positive 0.934951 
+484732667133718528 2014-Jul-03@16:17:28 Some of my recs: planet money, freakonomics, on the media, propublica, radiolab, this american life, tim ferris show neutral 0 
+484683601314082817 2014-Jul-03@13:02:30 Podcasting is one of those areas where I feel like there is a decent amount of consistently high quality content positive 0.944559 
+484669401434980352 2014-Jul-03@12:06:04 Human spectacle is pretty much a perfect topic for This American Life positive 0.88442 
+484081512116387840 2014-Jul-01@21:10:00 Oh damn its July already negative -0.740573 
+483723910538862592 2014-Jun-30@21:29:02 "hold your phone sideways, you maniac" negative -0.386957 
+483707763462512640 2014-Jun-30@20:24:52 very impressed by xbox controller support in games on windows. it just works, with seamless switching between keyboard/controller anytime positive 0.918527 
+483582226912014336 2014-Jun-30@12:06:02 I've watched about half a season of #hannibal and I'm not sure what I think of it yet... negative -0.415203 
+481825849889402880 2014-Jun-25@15:46:49 "These cases require us to decide how the search incident to arrest doctrine applies to modern cell phones, which are now such a pervasive.. positive 0.215726 
+481825722646814720 2014-Jun-25@15:46:18 Warrantless cell phone searches illegal!  negative -0.787351 
+481600867758788608 2014-Jun-25@00:52:49 just realized the android release names are in alphabetical order... i feel dumb negative -0.561282 
+481591130786914304 2014-Jun-25@00:14:07 Is there anywhere that fully archives someone's tweets so that you can read the best ones? positive 0.721793 
+481407895947706368 2014-Jun-24@12:06:01 If you create enough cool software and give some neat talks eventually you get rewarded by twitter with people to argue with positive 0.90168 
+481228716648169473 2014-Jun-24@00:14:01 Make snarky comment on hn, receive upvotes, unleash the hate machine negative -0.856403 
+481182427508113408 2014-Jun-23@21:10:05 Funemployment is a great word positive 0.849995 
+481168103351410689 2014-Jun-23@20:13:10 Ask HN: Is it reasonable to quit your job if its ruining your life? positive 0.469102 
+480503953587978240 2014-Jun-22@00:14:04 despite the setback, it was easy to try out my ideas in ~40 quickly written lines with numpy positive 0.386521 
+480485301077696512 2014-Jun-21@22:59:57 #MLGAnaheim #melee pools were hype! looking forward to tomorrow positive 0.450626 
+480457640800436224 2014-Jun-21@21:10:02 So solving #diy #soylent recipes as a system of equations doesn't quite work... next up: using a constraint solver in #python negative -0.47561 
+480429388786593792 2014-Jun-21@19:17:46 watching #melee on #MLGAnaheim , some good matches so far positive 0.508376 
+479008099286528000 2014-Jun-17@21:10:05 Fascinating article about a man who infiltrates cults  positive 0.597968 
+478934403515973633 2014-Jun-17@16:17:14 Saw the new Unicode spec, still disappointed a clown emoji doesn't exist negative -0.721079 
+478871226157649920 2014-Jun-17@12:06:11 Going to actually try to start doing the twitter + blog thing seriously again starting in July positive 0.527855 
+478692044672880641 2014-Jun-17@00:14:11 #soylent also makes it very easy to scale your daily caloric intake to gain/lose/maintain weight. hacker friendly! positive 0.743178 
+478645699194916865 2014-Jun-16@21:10:02 Short preview of thoughts on #soylent : seems worth it for cost + optimal nutrition + no food coma. not recommended if you love eating positive 0.386049 
+478571977956139008 2014-Jun-16@16:17:05 Have a couple ideas for blog posts about #DIY #soylent that should be coming up over the next couple of weeks positive 0.377094 
+478558925596262401 2014-Jun-16@15:25:13 I wish the #python docs remembered my version choice and redirected me appropriately positive 0.289654 
+476506891204706304 2014-Jun-10@23:31:10 #Smash4 tourney is so hype  negative -0.389369 
+471488722073288704 2014-May-28@03:10:45 Something about this gives me the creeps and I'm not totally sure what it is...  neutral 0 
+466973655390777344 2014-May-15@16:09:30 And the FCC makes another terrible decision about net neutrality... yay negative -0.315669 
+462286019619192833 2014-May-02@17:42:30 There should be a name for the language created by typos that still remains legible neutral 0 
+456824701063417857 2014-Apr-17@16:01:10 I wonder if you can tell when noise loops? negative -0.205119 
+456820614422999040 2014-Apr-17@15:44:56 Anyone know a good colored noise generator app for android? negative -0.289555 
+454727111849549825 2014-Apr-11@21:06:06 Ah disregard previous rant I guess. @BloombergNews got it wrong? negative -0.713898 
+454703980875362304 2014-Apr-11@19:34:11 Ugh the NSA knew about #heartbleed since it was introduced. I mean obviously they did but it's been confirmed... negative -0.655364 
+454256302701957120 2014-Apr-10@13:55:16 Well, probably time to stop using Dropbox, it was nice while it lasted positive 0.314085 
+453245188316876800 2014-Apr-07@18:57:28 The reasonable person asks for 1/2 the cake, the unreasonable the whole cake, they compromise &amp; splitreasonable: 1/4 unreasonable: 3/4 negative -0.650215 
+452579489382694912 2014-Apr-05@22:52:13 android tv, fire tv, roku, chromecast, cable dvrs, xbox one, tivo. off the top of my head the space seems kinda crowded? negative -0.807141 
+452503907961688064 2014-Apr-05@17:51:53 Kill News Feed is a great extension positive 0.626928 
+452111529434152961 2014-Apr-04@15:52:43 Craziest idea I've heard recently that could actually work: Uber for medical tourism negative -0.558971 
+451814057646243840 2014-Apr-03@20:10:40 Looks like Google keep is competing more with evernote, they just added searchable text in images positive 0.37974 
+451467292006940674 2014-Apr-02@21:12:44 Very skills in snake programming positive 0.718711 
+449551674848600064 2014-Mar-28@14:20:46 Extremely interesting read about modern discourse and argument -  positive 0.918082 
+448830714176634881 2014-Mar-26@14:35:55 VR -&gt; existential crisis:  positive 0.382623 
+448581661371150336 2014-Mar-25@22:06:16 Facebook just got a lot closer to omniscient company of the dystopian future positive 0.663411 
+446838685959737346 2014-Mar-21@02:40:19 2048 numberwang  neutral 0 
+446281880955277312 2014-Mar-19@13:47:46 Inevitably the longer you follow @thegrugq the more watch lists you end up on negative -0.487161 
+445230641299607552 2014-Mar-16@16:10:31 The Tyranny of Structureless Groups, good read about power structures in organizations for a Sunday neutral 0 
+444886428540223488 2014-Mar-15@17:22:44 Can there please be more gif album art? neutral 0 
+443442134793093120 2014-Mar-11@17:43:38 Its so warm out today!  wish I brought my long board to work neutral 0 
+443115187630247937 2014-Mar-10@20:04:28 I only realize I've opened too many tabs when the favicons disappear negative -0.781222 
+441253589910962176 2014-Mar-05@16:47:08 do hosting companies exist that don't have administrative access to customer servers? neutral 0 
+441247928355524608 2014-Mar-05@16:24:38 Pretty entertaining almost worst-case theory about mt gox  positive 0.750292 
+440954546291240960 2014-Mar-04@20:58:51 Related: the aereo decision boggles my mind. It seems like if I set that service up for myself no one would sue me negative -0.579387 
+440953738174267392 2014-Mar-04@20:55:38 its one of those days where I read things on hacker news and forget they're not a parody of real tech news negative -0.775644 
+434771623502422016 2014-Feb-15@19:30:07 So much snow you can't see across the Charles #blizzard negative -0.724693 
+434760850579415040 2014-Feb-15@18:47:18 #BostonIO bound, the talk lineup looks promising! Props to @thoughtbot + sponsors positive 0.576997 
+434722832195788800 2014-Feb-15@16:16:14 New season of #HouseOfCards is ridiculously good so far. Tor made it in, which is awesome! positive 0.735135 
