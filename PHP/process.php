@@ -10,8 +10,8 @@ class date {
 	public $time;
 }
 //******************** 
-$TweetsPulled = 100;
-$TweetsAnalyzed = 30;
+$TweetsPulled = 200;
+$TweetsAnalyzed = 200;
 //*********************
 $settings = array(
 	'oauth_access_token' => "2822318299-taVXDHTl6kqOVKvk6giWP3ftz3rVi6mVQ6Xqns5",
