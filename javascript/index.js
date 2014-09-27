@@ -1,9 +1,37 @@
+$(document).ready(function(){
+
+	if(document.URL.indexOf('?search=') > -1){
+		//$('#chart_div').show();
+	}
+	else{
+		$('#chart_div').hide();
+	}
+
+	$( document ).ajaxComplete(function() { //Function used to see if ajax request fires
+	  	$('#chart_div').show();
+	});
+
+    $('#searchButton').click(function(){
+        var searchValue = $('#searchBar').val();
+        //var ajaxurl = 'PHP/process.php';
+        var ajaxurl = 'index.php';
+        //$('#chart_div').show();
+        data =  {'value': searchValue};
+        $.post(ajaxurl, data, function (response) {
+        	window.open("/TweetBeat/index.php?search="+searchValue, "_self");
+        });
+    });
+});
+
+
+//Initialize Variables
 var data, options;
 var rows = new Array();
 var doneLoadingGoogle = false;
 var doneLoadingRows = false;
 var chart;
 var tweets = new Array();
+
 
 function loadPackages(){
 	google.load("visualization", "1", {packages:["corechart"]});

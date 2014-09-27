@@ -76,3 +76,282 @@
 485932450703364096 2014-Jul-06@23:44:59 Did we break it? negative -0.682331 
 485891316643950592 2014-Jul-06@21:01:31 .@AshleyJ Everybody who went to the podcast panel is a liar. #RTX2014 neutral 0 
 485795369377230849 2014-Jul-06@14:40:16 Hanging out by destiny center stage before signing. Come see me. #rtx2014 positive 0.248659 
+485540847027372032 2014-Jul-05@21:48:53 Amazing!!! We broke the record for most funded film on @Indiegogo! Thank you so much for your support! positive 0.27315 
+485468155297280000 2014-Jul-05@17:00:02 Favorite selfie so far. Hanging with Dunkelmans.  positive 0.372167 
+485425826482360321 2014-Jul-05@14:11:50 I just added a limited quantity of RTX 2015 VIP badges to the #LazerTeam campaign. neutral 0 
+485416597104758784 2014-Jul-05@13:35:10 We are now less than $100,000 away from the #1 spot on IndieGoGo! negative -0.349862 
+485248058238574592 2014-Jul-05@02:25:27 Thanks @MicaBurton &amp; @levarburton  for this awesome #rtx2014 gift.  positive 0.877239 
+485208144214122498 2014-Jul-04@23:46:50 #RTX2014  neutral 0 
+485128792742952960 2014-Jul-04@18:31:32 We are just $150,000 away from the #1 spot on IndieGoGo!Added new Perks and stretch goals! positive 0.46757 
+484765572492582912 2014-Jul-03@18:28:13 Reddit AMA:  neutral 0 
+484765498807054336 2014-Jul-03@18:27:56 I am doing an AMA right now on Reddit, but we are just about to break $2M on IndieGoGo! negative -0.55121 
+484724107162828803 2014-Jul-03@15:43:27 Lets ask @hankgreen!@PARADOX002: @burnie Do you know if your Vidcon keynote was recorded? positive 0.275915 
+484480105259872256 2014-Jul-02@23:33:52 Happy Birthday, RunkFunk Bedunkelbutt. positive 0.622799 
+484185835797872640 2014-Jul-02@04:04:33 The infuriating joy of knowing @gavinfree is demonstrated at 72 min mark this week."How many bones in your head?" positive 0.628755 
+484105585936175104 2014-Jul-01@22:45:40 Congrats to RT alum @nathanzellner for all his success with his film Kumiko!  positive 0.792414 
+484067911187693568 2014-Jul-01@20:15:58 Happy Canada Day to all Canadians and Moose. positive 0.549956 
+484058157916766208 2014-Jul-01@19:37:12 Due to incredibly popular demand, we also added more @lootcrate to the #LazerTeam campaign. positive 0.337305 
+484055187401613313 2014-Jul-01@19:25:24 Matt just announced an opening casting call for #LazerTeam at RTX 2014! Check it out: positive 0.391531 
+484048522186993664 2014-Jul-01@18:58:55 I can't believe it's April already. negative -0.668098 
+483754970013913088 2014-Jun-30@23:32:27 For clarity, Standalone perks (like Loot Crate and Challenge Coin) are add-ons. They cannot be upgraded. positive 0.567371 
+483752248531378176 2014-Jun-30@23:21:38 We just added new updates to the indiegogo page: Upgrading your existing Perk and a new Loot Crate tier!  positive 0.773531 
+483363625906606080 2014-Jun-29@21:37:23 Have you downloaded the @RTXevent app yet? Even if you're not going, you should get it to check out the schedule of events. negative -0.331712 
+483286290368974850 2014-Jun-29@16:30:05 My kiddo learning to play Civ 5:Oh good. At least Gandhi is my neighbor.I didnt have the heart to tell him. negative -0.478107 
+482676860099104768 2014-Jun-28@00:08:25 We hit another stretch goal for #LazerTeam. VFX upgrade unlocked. You guys are incredible.  positive 0.731822 
+482665136608395265 2014-Jun-27@23:21:50 Had a great time at the #VidCon2014  meetup. Thanks to everyone who came out. Sorry I stole all your sharpies. positive 0.159139 
+482625147795288065 2014-Jun-27@20:42:56 Our meetup at 2:30 will be right between the food trucks and the conv center. Lets hang out and support some local businesses. positive 0.547282 
+482540529826021376 2014-Jun-27@15:06:42 Looks like the Hilton only lets guests in their lobby. Stay tuned for new meetup location. positive 0.623565 
+482534792869601280 2014-Jun-27@14:43:54 My #FF is @abdine. Follow Alan if you want to know whats on the horizon for @roosterteeth positive 0.212207 
+482312116494278657 2014-Jun-26@23:59:04 Paneling with @ijustine is always enlightening. That lady knows media.  #Vidcon2014 positive 0.501769 
+482269172848545793 2014-Jun-26@21:08:25 The @roosterteeth and friends meet up will be at 2:30PM tomorrow in the main lobby of the Anaheim Hilton. neutral 0 
+482229663888973825 2014-Jun-26@18:31:25 How about a meet up tomorrow at VidCon after my last panel ends at 2:00PM? negative -0.321697 
+481996639276511232 2014-Jun-26@03:05:28 I am on a plane. neutral 0 
+481985727362654208 2014-Jun-26@02:22:06 Flight delay number four. negative -0.241804 
+481983843348393984 2014-Jun-26@02:14:37 RvB on Netflix has really pleased people today. And I have been surprised by the number of people who watch long form only on Netflix. positive 0.164951 
+481972833505931264 2014-Jun-26@01:30:52 Flight to VidCon has been delayed three times. Someone tell @abdine he might be on deck for my keynote tomorrow. negative -0.490136 
+481646409729323008 2014-Jun-25@03:53:47 Looks like it will be me and @abdine reprsenting @roosterteeth at VidCon. Anyone else going? negative -0.301612 
+481293516828450817 2014-Jun-24@04:31:31 Only a half hour in, but World War Z plays much better as Unrated on Netflix than it did as PG13. Hope the sequel is rated R. negative -0.760759 
+481206507350945792 2014-Jun-23@22:45:46 Waiting for tonight's RvB? The backer live stream for #LazerTeam is now live for everyone. Spoiler Warning. negative -0.266489 
+480803966369136640 2014-Jun-22@20:06:13 Just updated #LazerTeam campaign page. Info from yesterday &amp; added art for Challenge Coin. Check the Update tab! positive 0.400225 
+480784022633971712 2014-Jun-22@18:46:58 Dear browser developers: Backspace should never make you go back a page. Never. negative -0.477517 
+480424874607779840 2014-Jun-21@18:59:50 Getting heated.  negative -0.496879 
+480404320911781888 2014-Jun-21@17:38:10 I have my Borderlands 2 party. As soon as we are done we will play some other games. negative -0.0332893 
+480403071327944705 2014-Jun-21@17:33:12 We are playing the backer call now. neutral 0 
+480399855391485952 2014-Jun-21@17:20:25 We are about to show the Backer plot explanation and FAQ video from earlier this week on the #LazerTeam live stream. neutral 0 
+480356178359099392 2014-Jun-21@14:26:52 The #LazerTeam live stream starts in a half hour. Challenge coin goes up right after we start.  positive 0.561327 
+480202161343975424 2014-Jun-21@04:14:51 New Game Time is out! I talk with @MattHullum about #LazerTeam and play some Contagion on Steam. positive 0.219061 
+480178768560930817 2014-Jun-21@02:41:54 We have a 12 hour live stream tomorrow starting at 10AM for our #LazerTeam campaign. Come join us! positive 0.545277 
+479851956400189441 2014-Jun-20@05:03:16 Lots of questions about the #LazerTeam challenge coin. It goes up Saturday for livestream. Details posted tomorrow. positive 0.472734 
+479479380435943424 2014-Jun-19@04:22:47 Octopus Is Fartin @midnight #BadBeatlesSongs negative -0.489468 
+479097406886129664 2014-Jun-18@03:04:57 I just asked all the @RoosterTeeth employees to be at work by 9 AM tomorrow.If you dont hear from me again, remember me fondly. negative -0.262354 
+479096916467146752 2014-Jun-18@03:03:00 Congrats to @megturney on her @HeroesofCosplay appearance! @skydart neutral 0 
+478958740167614465 2014-Jun-17@17:53:56 Emails to our campaign backers have started going out. If you are part of the campaign, check your email for a link! positive 0.657187 
+478950218738565120 2014-Jun-17@17:20:05 I am passive aggresively teaching the internet about time zones today, one retweet at a time. Don't call me a hero. negative -0.561829 
+478940457804644354 2014-Jun-17@16:41:18 Wish I had known about this site earlier:  negative -0.242589 
+478746190251450368 2014-Jun-17@03:49:21 Our first live stream call for Lazer Team backers is in about 15 hours.More info on Indiegogo update page:  positive 0.472311 
+478728850113720320 2014-Jun-17@02:40:26 Day 5 is a short film/series we are producing. It is not #LazerTeam. negative -0.431365 
+478725665257054208 2014-Jun-17@02:27:47 That's it.RT @ObvGraphics: @burnie Is this the picture you were talking about [on podcast]?  neutral 0 
+478246195609866240 2014-Jun-15@18:42:33 Spending Fathers Day biking &amp; giving the boys photo lessons. Their first subject: @bdunkelman &amp; @kzuelchs adventure.  positive 0.259457 
+478129947018407936 2014-Jun-15@11:00:37 Your support has been incredible! Next stretch goal is an orchestral score. Thats way better than our plan to just have Gus hum everything. positive 0.681228 
+478129071658762240 2014-Jun-15@10:57:08 Woke up to find we reached another stretch goal at $1.25M. Here comes a month of Lets Plays by the podcast crew! positive 0.0442562 
+477478755053486080 2014-Jun-13@15:53:00 Watching consoles evolve after launch is very cool. RT @majornelson: Achievement Snap Mode coming to Xbox One  positive 0.620444 
+477471703480537088 2014-Jun-13@15:24:59 I want an email client that has a thumbs up/thumbs down feature. negative -0.425979 
+477288989230002176 2014-Jun-13@03:18:57 Just snapped some lightning over Austin.  negative -0.544648 
+476890809405423616 2014-Jun-12@00:56:43 Congrats to @JayOrDan23 who makes the RT Animated Adventures for making 150 episode of the RT Animated Adventures! positive 0.909651 
+476640591489810433 2014-Jun-11@08:22:27 Really bad at selfies w/ Maude Garrett  negative -0.72113 
+476525611565854720 2014-Jun-11@00:45:33 We have added new stretch goals to the #LazerTeam Indiegogo campaign. neutral 0 
+476423069376868353 2014-Jun-10@17:58:05 Our #E3 field production team fueling up their batteries and caffeine tanks. Updates all day on The Know!  positive 0.225261 
+476196583382343680 2014-Jun-10@02:58:07 And the fact that we don't have to wait for Destiny Alpha and Hardline is pretty amazing. positive 0.758361 
+476196391652311040 2014-Jun-10@02:57:21 Great day for gamers today. Can't wait for Uncharted 4, Halo Remastered, Inside, No Man's Sky and Sunset Overdrive. positive 0.468915 
+476194086295052288 2014-Jun-10@02:48:12 Did the twitch stream end early? negative -0.617006 
+476184791503486976 2014-Jun-10@02:11:16 Sony disables HDCP and then integrates YouTube sharing. That's moving in the right direction. positive 0.55102 
+476180933758824448 2014-Jun-10@01:55:56 Videogames, right? neutral 0 
+476087729218809856 2014-Jun-09@19:45:34 Got to joke w/ @GameOverGreggy, chat with @DMC_Ryan &amp; then bumped into @NaomiKyle in the hall. I would say thats a solid morning with @ign. positive 0.314475 
+476052128570826752 2014-Jun-09@17:24:06 .@PlutonForEver on stage and kicking ass neutral 0 
+476040515385704448 2014-Jun-09@16:37:57 Once again, @gameovergreggy laughs all the way to the bank. #E32014  positive 0.438353 
+476030844713177088 2014-Jun-09@15:59:32 About to go live with @ign @gameovergreggy @dmc_ryan &amp; @DaemZero  positive 0.378482 
+475893305343881216 2014-Jun-09@06:53:00 I will be on the @ign #E3 show tomorrow morning to cover the Microsoft Press Briefing with @GameOverGreggy positive 0.383855 
+475863455711232000 2014-Jun-09@04:54:23 Our @indiegogo campaign just sailed past $1,000,000 in two days. I am so grateful for our amazing communitys support. #LazerTeam positive 0.67198 
+475768032610885632 2014-Jun-08@22:35:12 A reminder that our first #lazerteam conf call is next Tues for all early backers. We will be revealing art &amp; plot. positive 0.459033 
+475360678803304448 2014-Jun-07@19:36:32 We added our $1M stretch goals and opened up some RTX 2014 badges.  neutral 0 
+475243471880876033 2014-Jun-07@11:50:47 First stretch goal announced. At $750,000 we will produce six new episodes of our popular retired show Game Time. neutral 0 
+475219588511461378 2014-Jun-07@10:15:53 What a crazy night its been. We officially hit goal at 4:44AM local time. Thank you everyone. I feel very humbled and very grateful. positive 0.850838 
+475086639392247809 2014-Jun-07@01:27:36 Quarter of a million in two hours. We are so very grateful for everyone's support. #LazerTeam  positive 0.339171 
+475079674540732416 2014-Jun-07@00:59:55 Forgot to put in the perk description that @AH_Michael always puts out on the first date.  negative -0.295184 
+475076693095219200 2014-Jun-07@00:48:04 We just launched our @Indiegogo campaign a @roosterteeth feature, Lazer Team! Check it out &amp; support our movie! positive 0.812707 
+467438357002207232 2014-May-16@22:56:03 Halo 5 themed #FF: @franklez @PlutonForEver @k_wolfkill @alisonst @bsangel @Brav @DavidEllis  @vicdeleon @chespace neutral 0 
+467402194828812288 2014-May-16@20:32:21 If you are a sponsor, you can watch the @AchievementHunt live stream here: positive 0.625725 
+467398862320066560 2014-May-16@20:19:07 The @AchievementHunt crew is playing @RockstarGames right now in GTA V. Go watch! positive 0.670145 
+467297261324496897 2014-May-16@13:35:23 Woke up to the text alerts of all my friends messaging me that Halo 5 was announced.Best alarm clock ever. negative -0.283945 
+466797468018302977 2014-May-15@04:29:23 Latest @roosterteeth animated adventure is up! I'm not good with neighbors. negative -0.0242583 
+466789664536670209 2014-May-15@03:58:23 The @roosterteeth episode of @midnight is about to begin. You should come watch us. positive 0.312671 
+465980047333916672 2014-May-12@22:21:15 I am appearing on @midnight this Wednesday May 14th with @sorola @gavinfree &amp; of course @nerdist. Come see us, LA! positive 0.502531 
+459526993004855296 2014-Apr-25@02:59:07 I was notified that I have been on twitter for six years as of today. "Poo-tee-weet?" neutral 0 
+459503549370478592 2014-Apr-25@01:25:57 When old was new neutral 0 
+459405253247770624 2014-Apr-24@18:55:22 We need to increase our viral mktg budget.RT @david_munoz342: @burnie @AshleyJ saw this on 6th street last week.  negative -0.229815 
+458772625628463104 2014-Apr-23@01:01:32 Congrats to @PhillyD &amp; @LinzDeFranco on the birth of their baby boy! positive 0.83314 
+458700919488528384 2014-Apr-22@20:16:36 Building in Minecraft positive 0.357963 
+458289415698137088 2014-Apr-21@17:01:25 Our Fifth Stage neutral 0 
+458033537396908032 2014-Apr-21@00:04:39 My kids soccer game was Amsterdam (Holland) vs Jamaica on 4/20 weekend.I think the Austin Youth Soccer League is sending a bad message. negative -0.347627 
+457939246741864448 2014-Apr-20@17:49:59 Happy Easter! positive 0.752332 
+457658525703868416 2014-Apr-19@23:14:30 My older kid JD achieves victory via a relentless application of force and effort. #EasterBB  positive 0.702679 
+457656292312494080 2014-Apr-19@23:05:37 My youngest kiddo is one of those "instantly good at everything he tries" type people. It's super annoying. #EasterBB  negative -0.770278 
+457563553864511488 2014-Apr-19@16:57:07 Every time I bring breakfast in bed to @ashleyj. Every. Time.  positive 0.525722 
+457375083925749761 2014-Apr-19@04:28:12 Does a chocolate bunny have any religious significance? Kids want to shoot theirs with BB guns and I don't want to accidentally blaspheme. negative -0.475837 
+456977150998884352 2014-Apr-18@02:06:57 The latest episode of Immersion is now online. Check it out! positive 0.502341 
+456933309885718528 2014-Apr-17@23:12:45 So. Anybody want to buy a building? Slightly used, very funny. positive 0.584834 
+456902237345021952 2014-Apr-17@21:09:16 Don't worry Gavin Free I had Adam Ellis help me move your desk.  positive 0.309497 
+456868814387302400 2014-Apr-17@18:56:28 Congrats to @fwiz on a huge move to MLG. And congrats to MLG on landing him. Ryan is an amazing talent.  positive 0.679648 
+455896169848135680 2014-Apr-15@02:31:31 I am using my sense of Twitter. positive 0.63129 
+455745255703212032 2014-Apr-14@16:31:50 Going back to the gate to get more gas so we can "fly around" the weather. Solid plan. positive 0.793163 
+455739848427450368 2014-Apr-14@16:10:21 Sitting on the DFW tarmac because the Austin airport is closed right now due to extreme weather. negative -0.412632 
+455536941208203265 2014-Apr-14@02:44:04 All-business @rkhoo at the end of #PAXEast: "I've already caught up with you. I'm not talking to you again." #fairplay negative -0.116979 
+455204288005160960 2014-Apr-13@04:42:14 Congrats to @rocketjumptweet and @fwong for hitting one billion views on YouTube! positive 0.442501 
+455121560521949184 2014-Apr-12@23:13:30 Even at a PAX panel with 5000 attendees, you should never leave your phone unattended next to @AH_BrownMan  negative -0.633558 
+454656024365260800 2014-Apr-11@16:23:37 God damn it @AH_BrownMan you ruin everything. #PAXEast  negative -0.654481 
+454444459120672768 2014-Apr-11@02:22:56 Shout out to @Megsalodon and @ashhRT for saving my ass tonight with a messed up hotel situation at #PAXEast. negative -0.558881 
+454439201275392000 2014-Apr-11@02:02:03 .@IJustine @fwong @gameovergreggy @adamkovic Our show The Gauntlet was nominated for a Webby. Congrats!  positive 0.755948 
+454438220470976512 2014-Apr-11@01:58:09 Presidential visit to Austin means I have to wait extra three hours to see this face. THANKS OBAMA  @AshleyJ #PAXEast  positive 0.456003 
+454343861360271360 2014-Apr-10@19:43:12 Enjoying my last few moments at the top of the global Fly Catbug Fly leaderboards.  positive 0.673552 
+454342119499378688 2014-Apr-10@19:36:17 The new Fly Catbug Fly game has my favorite easter egg of all time, but I might be biased. @JayOrDan23  neutral 0 
+454338268247494656 2014-Apr-10@19:20:59 The fine folks over at @cartoonhangover just launched their mobile game Fly Catbug Fly! Check it out! positive 0.602115 
+453704518706810880 2014-Apr-09@01:22:41 About to go live at 7:30 with @CUatUSC  you can watch it online here:  positive 0.475815 
+453597306718552064 2014-Apr-08@18:16:40 My sit-down at USC tonight is not open to the public, but you can watch it online. @CUatUSC  neutral 0 
+453582213209026560 2014-Apr-08@17:16:41 Heading to LA after missing all the earthquakes the last few weeks. negative -0.641702 
+453329228226781185 2014-Apr-08@00:31:25 Starting the #RTPodcast. It's me @sorola @AH_Michael &amp; @GavinFree positive 0.295795 
+453274652689723392 2014-Apr-07@20:54:33 In May, I will be appearing on @midnight along with @gavinfree  @sorola and of course @nerdist. Are you in the LA area? Come see us! positive 0.491952 
+453228802441621504 2014-Apr-07@17:52:21 This is the conversation from when @sorola were discussing the guy who "fell" on an air hose and inflated himself.  neutral 0 
+453184636093358080 2014-Apr-07@14:56:51 Art from the chalkboard wall during last nights get together. @patthewanderer  neutral 0 
+453181275239493632 2014-Apr-07@14:43:30 Love this image. Its simple but merges the iconic context of two types of photos. Quietly brilliant.  positive 0.752483 
+452926875380109312 2014-Apr-06@21:52:36 Game of Thrones night is in serious jeopardy.  negative -0.57431 
+452854991829479424 2014-Apr-06@17:06:58 Rainy day coffee with JD at the Hideout. Its marked for demolition along with our old downtown office. negative -0.42838 
+452581964877271040 2014-Apr-05@23:02:03 Made some vines yesterday. This was my favorite: positive 0.566453 
+452513726688550912 2014-Apr-05@18:30:54 Eleven years of @RoosterTeeth  positive 0.263238 
+452202408018313216 2014-Apr-04@21:53:50 Two of this week's Vines "Beer Goggles" and "Graduation" were written by @roosterteeth user Alex Amos! neutral 0 
+452166381736169472 2014-Apr-04@19:30:40 Nope. Nice try though, Rooster Teeth job applicant.  positive 0.243987 
+451573955338313729 2014-Apr-03@04:16:35 Currently Playing: neutral 0 
+451556591121092609 2014-Apr-03@03:07:35 Plus each lab rat wore a backpack with receivers, transmitters, a battery for each and a helmet with video goggles. neutral 0 
+451556201176657921 2014-Apr-03@03:06:02 The amount of field tech it took to achieve Immersion's live Split Screen. Many thanks to @mrfarmahini and Patrick S.  positive 0.63273 
+451458145626255360 2014-Apr-02@20:36:24 Heading over to #ThePatch set. What should we talk about? neutral 0 
+451432022347485184 2014-Apr-02@18:52:35 To celebrate the launch of Immersion Season 2, we finally made a shirt for the show! positive 0.784354 
+451425823505920000 2014-Apr-02@18:27:58 On this week's episode of Immersion we tested if you could cheat on a split screen view in real life. positive 0.430694 
+451416058071494656 2014-Apr-02@17:49:09 Even though I normally hate internet April Fool's jokes, @IGN's TitanFall Optimus Prime gag was really great.  negative -0.588132 
+451149489823174656 2014-Apr-02@00:09:54 Red vs Blue Season 12 trailer is online! @MilesLuna24 @ChrisDAnimation @TrocaderoNet  neutral 0 
+451088453799649280 2014-Apr-01@20:07:22 Eleven years ago today, the first episode of Red vs Blue was uploaded and about 3000 people watched it. #RT11Years positive 0.257981 
+450844181716410368 2014-Apr-01@03:56:43 As a reminder, @RoosterTeeth does not make April Fools Day jokes. Please feel free to browse our content 365 days a year. positive 0.0802321 
+450835600812163072 2014-Apr-01@03:22:38 Interesting. Hirez studios hires all the /r/smite subreddit moderators, prepares to shut down the subreddit. negative -0.631168 
+450040652466642944 2014-Mar-29@22:43:47 Wonder how many modern gamers even know that this was a thing?  positive 0.218626 
+449940689199980544 2014-Mar-29@16:06:34 .@Axialmatt &amp; @HightowersWorld's high brow documentary about the noble sport of horse racing is nearing 3MM views. positive 0.68188 
+449697168324952064 2014-Mar-28@23:58:54 On a totally unrelated note my #FF is @bungie negative -0.556722 
+449695267776782336 2014-Mar-28@23:51:21 Spent the day doing something very fun, some place very cool.  positive 0.914095 
+449246683860185089 2014-Mar-27@18:08:50 Seattle is rainy. negative -0.596417 
+449033698013630464 2014-Mar-27@04:02:30 Walk Like An Erection @midnight #SchlongSongs positive 0.5531 
+449004543419105280 2014-Mar-27@02:06:39 If we can't track a plane, there's no way we can track nuclear ICBMs, right? That has to be a total bluff. Sleep tight, everyone. negative -0.0437892 
+448955919909392384 2014-Mar-26@22:53:27 I am learning that people only want to Kickstart unsuccessful products. negative -0.407335 
+448153957844529152 2014-Mar-24@17:46:44 The whole staff took a tour of the new stage this morning. So excited about what we will do here.  positive 0.822598 
+447187435764461568 2014-Mar-22@01:46:07 Clarification: University of Southern CaliforniaFurther clarification: 2005 National Championship Runner-up neutral 0 
+447184026634178561 2014-Mar-22@01:32:34 I will be appearing at USC on Tuesday April 8. Finding out if tickets will be available to non-students. neutral 0 
+446795689968693248 2014-Mar-20@23:49:28 Everyone seems obsessed with first tweets today. Did you know that you can download your whole archive of tweets?  negative -0.743561 
+446366300877504512 2014-Mar-19@19:23:13 I like that Spike had the courage to print the entire name of the panel. cc: @sorola  positive 0.694684 
+445390038025502720 2014-Mar-17@02:43:54 Tomorrow @roosterteeth spins off RT News into its own channel #TheKnow but you can subscribe now! positive 0.709331 
+445062110825811968 2014-Mar-16@05:00:50 So proud to know the @zellnerbros    Those guys are true filmmakers  and Kumiko was their best yet. positive 0.861959 
+444953870033092608 2014-Mar-15@21:50:44 Auto Dealers Are Terrified of @TeslaMotor's Plan to Eliminate Oil Changes negative -0.884807 
+444832105466310656 2014-Mar-15@13:46:53 Going to see @zellnerbros movie Kumiko The Treasure Hunter at #SXSW tonight. If you are there, come say hello! positive 0.711677 
+444332485938118657 2014-Mar-14@04:41:34 Many thanks to @joerogan @warriorpoetus @sorola &amp; @Onnit for a great #sxsw #partycast. Had a blast. positive 0.769298 
+444304668584202241 2014-Mar-14@02:51:02 In 15 minutes we start the crossover #partycast with @joerogan. What should we talk about? neutral 0 
+444253046453714944 2014-Mar-13@23:25:54 Seeing a bunch of tweets about the US Airways plane crash; looks like the pilots saved a lot of people's lives. neutral 0 
+444000166001905664 2014-Mar-13@06:41:03 I am not in the twitch chat. negative -0.632 
+443994891945668608 2014-Mar-13@06:20:05 .@stallion83 is only 50 GS away from 1MM. neutral 0 
+443988281449934849 2014-Mar-13@05:53:49 watching @stallion83 try to break 1,000,000 GS right now. negative -0.322372 
+443579058886946816 2014-Mar-12@02:47:43 FYI, the spiritual successor to the "Strangers Kissing" video just went up on every porn site. negative -0.424851 
+443509125427625985 2014-Mar-11@22:09:50 On last night's #titanfall stream with @joelemslie1 I talked about the awesome "Me And My Shadow" ad. Here it is:  neutral 0 
+443500171855290368 2014-Mar-11@21:34:15 I died on and got banned from my own Minecraft server. Thug. Life.  negative -0.766302 
+443254332452904960 2014-Mar-11@05:17:22 Thanks for tuning in to the #TitanFall launch event. Headed home in a bit to get killed in the game. negative -0.012856 
+443220317423411200 2014-Mar-11@03:02:12 Link:  neutral 0 
+443219491485274112 2014-Mar-11@02:58:56 Going live with @gavinfree &amp; @joelemslie1 for the official Xbox @Titanfallgame launch stream. Tune in! #Titanfall  positive 0.0723842 
+443124752308133888 2014-Mar-10@20:42:28 The #RTPodcast audience has discovered the amazing entity know only as @Lons positive 0.406393 
+443085240550948865 2014-Mar-10@18:05:28 Livestream starts at 3:00PM Central Time. Tune in to see the rest of gang &amp; @shiralazar with special guest Rosario Dawson. positive 0.591303 
+443084117148577792 2014-Mar-10@18:01:00 Disappointed that due to scheduling changes beyond my control I will not be on the live #sxsw podcast today. negative -0.79824 
+442851467414618112 2014-Mar-10@02:36:32 .@LydiaWinters &amp; I were discussing seeing our merch in public when these two handsome fellows walked by. #serendipity  positive 0.385338 
+442761426239647745 2014-Mar-09@20:38:44 Watching @sorola moderate a panel with @vubui @CertainAffinity  &amp; @Titanfallgame #sxsw  positive 0.825044 
+442734542403555328 2014-Mar-09@18:51:55 I wish there was a dumb fucking Facebook quiz to tell me which dumb fucking Facebook quiz I am. negative -0.888116 
+442708364250730496 2014-Mar-09@17:07:53 The #rwby voice cast is signing at SXSW gaming right now. Go see them! @Kara4tx @BlawnDee @ApricotAbroad @LindsayTuggey neutral 0 
+442413501764485120 2014-Mar-08@21:36:13 .@Roosterteeth was awarded the top honor in social media by the Austin American Statesman!  positive 0.308636 
+442360914012946433 2014-Mar-08@18:07:15 My son JD got expert help troubleshooting his Kerbal Space Program launcher from none other than @neiltyson  neutral 0 
+442327226000752640 2014-Mar-08@15:53:23 I promised @sorola I would ask Neil deGrasse Tyson at least one space question posed by @gavinfree. I'm doomed. negative -0.730042 
+442326603385671680 2014-Mar-08@15:50:54 About to go live in fifteen minutes with @neiltyson on  @shiralazar's What's Trending. Tune in at  neutral 0 
+441752015522115584 2014-Mar-07@01:47:42 Spending a lovely evening as a +1.  positive 0.649588 
+441446551525675008 2014-Mar-06@05:33:54 "If we submit the ridiculous title for our #SXSW panel at last minute they can't reject it.""Think that'll work?" negative -0.507254 
+441244092547084288 2014-Mar-05@16:09:24 Riveting.  neutral 0 
+441073484748165120 2014-Mar-05@04:51:28 This all your fault @GameOverGreggy.  negative -0.651985 
+440578666326933504 2014-Mar-03@20:05:14 In the Lego game, you use a 3.5" floppy disk in a build. My kid called it "a giant save button" You just aged 10 years reading this. positive 0.276162 
+439844063022313472 2014-Mar-01@19:26:11 Yeah but no one is beating that score. Youre all chumps.@StephanFenris: did you learn nothing from the podcast talk you JUST had! negative -0.215635 
+439737382217072640 2014-Mar-01@12:22:16 #twitchplayspokemon finally beat the game. Let me be the first to say GCJHGDCABBABA to all the participants. negative -0.312791 
+438797129524326400 2014-Feb-26@22:06:02 We are doing that #ThePatch thing.  What should we talk about? neutral 0 
+438152160987983872 2014-Feb-25@03:23:10 On the #RTPodcast, I talked about the horrible overdub that's in The Godfather. It's in this scene about 35 secs in.  negative -0.667139 
+438012425292353536 2014-Feb-24@18:07:54 Wow. Harold Ramis was such an enormous inspiration. RIP. negative -0.0902245 
+438010997375520768 2014-Feb-24@18:02:14 Rebel doesn't care if he unplugs my computer.  negative -0.435454 
+437775052365254656 2014-Feb-24@02:24:40 The Russians ruining the Olympics and the Canadians coming to the rescue sounds like the best Die Hard reboot ever. negative -0.205035 
+437390796610756609 2014-Feb-23@00:57:46 So grateful to have an amazing, adventurous person like @AshleyJ in my life. positive 0.962027 
+435962519241228289 2014-Feb-19@02:22:19 At the vet with Joe The Cat and @ashleyj. Joe has been diagnosed with cedar allergies. He is a true Austinite now.  negative -0.313349 
+435541299458875392 2014-Feb-17@22:28:32 My research for tonight's #RTPodcast definitely landed me on a government watch list of some kind. positive 0.501044 
+434739532357849089 2014-Feb-15@17:22:36 Good day for ftbl.  positive 0.270068 
+434512852045406208 2014-Feb-15@02:21:51 Bummer. Our last Valenvine entitled Android Doesnt Understand was corrupted. Looks like just two tonight. negative -0.929462 
+434461165649817601 2014-Feb-14@22:56:28 You can pre-order the Ruby Rose figure now on our site or see them in person at Toy Fair this week.  positive 0.419571 
+434460534407045120 2014-Feb-14@22:53:57 So awesome. RWBY figure from McFarlane Toys:  positive 0.775659 
+434432249841209344 2014-Feb-14@21:01:34 I did a keynote for SXSW back in 2006 &amp; I dedicated my time to talking about this. It's a critical issue. positive 0.652871 
+434431635753144320 2014-Feb-14@20:59:07 I especially feel for him here: "I don't know why I do this every time this subject comes up. It's my lengthy elevator speech for nothing." negative -0.408635 
+434430436668739584 2014-Feb-14@20:54:22 I agree with so much of what this guy says about Access Providers vs Content Providers. It's long, but worth a read.  positive 0.719282 
+434348227669004288 2014-Feb-14@15:27:41 Morning Zen w/ Joe The Cat.  neutral 0 
+434100338522468352 2014-Feb-13@23:02:40 Love is pretending to understand the Final Fantasy series. negative -0.483748 
+434015143828422657 2014-Feb-13@17:24:08 Kung Shu featuring Gavin Free  positive 0.47135 
+433641153108275200 2014-Feb-12@16:38:02 These are ridiculously cute and awesome. cc: @MilesLuna24 @montyoum  positive 0.795012 
+433635101331570688 2014-Feb-12@16:13:59 I may have gotten up at 4:00 AM to register for the #Titanfall beta. Thats a distinct possibility. negative -0.386419 
+433632443174633472 2014-Feb-12@16:03:25 Its @mrfarmahinis birthday. Go wish him a happy one for me. And if you could tell him hes getting laid off that would save me some time. positive 0.514094 
+433387404875952128 2014-Feb-11@23:49:43 From our podcast discussion of Rugby Hits vs NFL Hits, someone sent me this:  positive 0.462271 
+433261309140819968 2014-Feb-11@15:28:40 And that was the last time anyone ever saw @sorola. Legend says when we need him, he will return. negative -0.238931 
+432949539230593024 2014-Feb-10@18:49:48 Wonder how we go through them so quickly?  positive 0.283601 
+431965715893977088 2014-Feb-08@01:40:26 I made some vines today with @BlawnDee &amp; @GavinFree. Vine day is always a fun day.  positive 0.665291 
+431810481624342528 2014-Feb-07@15:23:36 Please stand back. Business professionals at work.  neutral 0 
+431464407839694849 2014-Feb-06@16:28:25 Next time, let's just hold the Olympics online. neutral 0 
+431201171127033856 2014-Feb-05@23:02:25 That's real life.RT @Valaqil: #thepatch Where's the love for dogs? neutral 0 
+430902561101451265 2014-Feb-05@03:15:51 I also understand Aussie Rules Football. Thats a feat.@DayManZee: Its really really weird to hear @burnie talk about the nrl #RTPodcast negative -0.328416 
+430829679449088001 2014-Feb-04@22:26:14 Congrats to everyone sending me higher Flappy Bird scores than mine. I cordially invite you to shove them up your butt. positive 0.145208 
+430827993271762945 2014-Feb-04@22:19:32 Friendly competition.  positive 0.641101 
+430456914665668608 2014-Feb-03@21:45:00 Quoting @flabbyironman "You don't need more coffee. You just need to self-actualize." neutral 0 
+430365709646839809 2014-Feb-03@15:42:35 Bummed  @octodadgame isnt out on PS4 yet. It was one of best games at launch event. Still, kids laughed their butts off playing PC version. negative -0.0490348 
+430089088037683201 2014-Feb-02@21:23:23 I only want a little pancakes today.Troll dad obliges.  negative -0.700419 
+429376981906382848 2014-Jan-31@22:13:44 Congrats to everyone @roosterteeth. Our YouTube channel was #4 non-music and #11 overall globally w/ 1Billion+ views!  positive 0.635843 
+429122451729944577 2014-Jan-31@05:22:19 Wonder if Twitter has a ContentID system like YT?MT @Aaron_Morgan: Twitter removed my tweet about the TMNT design by request of Paramount. positive 0.714309 
+428983328826339328 2014-Jan-30@20:09:30 Lets do this.  positive 0.3027 
+428654134896521216 2014-Jan-29@22:21:24 This week's #ThePatch is pre-recorded but I am here with @ashleyj watching it with you guys. positive 0.623606 
+428295140982013952 2014-Jan-28@22:34:53 Kind of sad that my biggest act of rebellion today was hitting * even though I wasnt the leader of the conference call. #conferencecoup negative -0.887707 
+428229880933666816 2014-Jan-28@18:15:34 Icy weather hits all of Texas and Austin embarrasses itself. We're such a hot mess. (via reddit/r/austin)  negative -0.743654 
+427873006535593984 2014-Jan-27@18:37:28 Too late by about fifty tweets. @Kadir_S3: @burnie inb4 xzibit negative -0.26643 
+427871475522355200 2014-Jan-27@18:31:23 Who would you like to see exhibit at #RTX2014? positive 0.396007 
+427674192621109249 2014-Jan-27@05:27:27 That damn cat likes her better in videogames too. neutral 0 
+426478133068324864 2014-Jan-23@22:14:45 Looks like @VGHS is going with Indiegogo over Kickstarter for  Season 3.  positive 0.408226 
+426375630075084801 2014-Jan-23@15:27:26 Before anyone got in the office and could hear, I made sure to stop at @calebdenecours desk so we could talk about how awesome Frozen is. negative -0.418981 
+426148437868806144 2014-Jan-23@00:24:39 Two days ago it was 80 degrees in Austin and tomorrow there is a chance of snow. neutral 0 
+425465590443040768 2014-Jan-21@03:11:16 Damn it. Corrected by a guy who can't spell "straight" RT @Aus_Eb: You're off by 1000x. You skipped billion and went streight to trillion negative -0.355269 
+425327858605506560 2014-Jan-20@18:03:58 On MLK day I thought I should share MY dream as well: Im running away from a dragon and then I take a test I didnt study for. #notasgood negative -0.673403 
+423564950976479233 2014-Jan-15@21:18:48 So many notes for #ThePatch Game of the Year Edition.So. Many. Notes. neutral 0 
+423562315946946560 2014-Jan-15@21:08:20 Been beating the "have your own corner of the internet" drum for years now. Nothing is forever on the internet. negative -0.573213 
+422950178316767235 2014-Jan-14@04:35:55 Just remembered. The regenerative discussion was about the cheerleader on Heroes. Not anyone on True Blood. #RTPodcast negative -0.0394512 
+422903476171964416 2014-Jan-14@01:30:20 Starting the #RTPodcast. What should we talk about? neutral 0 
+422857723022442496 2014-Jan-13@22:28:32 Tonight on the #RTPodcast, Gavin or Google returns. neutral 0 
+422838041623789568 2014-Jan-13@21:10:19 If Google doesn't turn out to be Scarlett Johansson, I'm going to be very disappointed. negative -0.807203 
+422486995152019457 2014-Jan-12@21:55:23 The allergy section in an Austin CVS during cedar season:  neutral 0 
+422050164405055490 2014-Jan-11@16:59:35 Your Australian slang for the day: sprinkles are called hundreds &amp; thousands and cotton candy is fairy floss negative -0.731895 
+421832955808329729 2014-Jan-11@02:36:28 .@AshleyJ Lets go to dinner. #weshouldgotodinneridiedwhiletypingthishashtag  positive 0.200667 
+421829681042583552 2014-Jan-11@02:23:27 The lead news story in tonights RT News is Boyfriend Starves To Death While Waiting For News To Be Finished @AshleyJ negative -0.709652 
+421795781603885057 2014-Jan-11@00:08:45 My #FF is @alliperson who made the worst OK Cupid profile you undoubtedly read about this week. negative -0.393046 
+421429127518760960 2014-Jan-09@23:51:48 Jesus. Do we really need another show like this?  neutral 0 
+421311557998354432 2014-Jan-09@16:04:37 Congrats @cartoonhangover on one million YouTube subscribers. All hail Catbug. positive 0.511459 
+421308197874302976 2014-Jan-09@15:51:16 Spoilercasts are up to @sorola. He programs our broadcast division. neutral 0 
+421302574302494721 2014-Jan-09@15:28:55 Nope.@TheCrackerEdits: @burnie is there gonna be another breaking bad spoilercast for your guys view on the ending negative -0.621976 
+421024735615799296 2014-Jan-08@21:04:53 The Steam Machine prices make the Steam Machine far less revolutionary than I hoped. negative -0.391021 
+420747632772804608 2014-Jan-08@02:43:47 Congrats to @thefinebros for their #IAWTVAwards win for Kids React! neutral 0 
+420743184331714560 2014-Jan-08@02:26:06 RWBY just won for Best Animated Series at the #IAWTVAwards making it three years straight for @roosterteeth in that category! negative -0.565322 
+420726753145794560 2014-Jan-08@01:20:49 Stand back everyone. @ChrisDemarais is a professional red carpet fashion icon.  positive 0.435587 
+420723271412109312 2014-Jan-08@01:06:59 In Las Vegas for some brief CES stuff and to attend #IAWTVAwards where three of our shows are nominated. negative -0.596586 
+420420262668939264 2014-Jan-07@05:02:56 Checked in to see who won tonights game and just watched five lead changes. positive 0.232346 
+419688227012751360 2014-Jan-05@04:34:05 Why is it called Space Invaders if they are invading Earth?My kid just recontextualized a 35 year old game for me. Are we the invaders? negative -0.545317 
+419507299875422208 2014-Jan-04@16:35:09 Thanks to everyone who listens to #ThePatch I have many project Spark codes and pics of 2DS machines. Thanks! positive 0.673066 
+419320082632675328 2014-Jan-04@04:11:12 So far my resolution to see at least four Cards Against Humanity pictures a day is going great. positive 0.817112 
+419195526089695232 2014-Jan-03@19:56:16 On their first trip to LA @AH_Michael &amp; @LindsayTuggey are in an earthquake. @sorola is going to be so jealous. negative -0.733077 
+419131476999806977 2014-Jan-03@15:41:45 It is @Aaron_Morgan &amp; @jack_ps birthday. Tradition demands they now fight to the death. negative -0.0811494 
+418937738969096192 2014-Jan-03@02:51:55 Pizza selfie w/ @EricVespe. Photobomb by The Bear.  positive 0.444097 
+418896348893564928 2014-Jan-03@00:07:26 XCom's "mental ability meter" might need some recalibration.  neutral 0 
+418263526549884929 2014-Jan-01@06:12:50 Just has to kick @sorola and @EstherSorola out of a New Years party. So embarrassing. Hope they get the help they need. negative -0.307841 
+418082961280344065 2013-Dec-31@18:15:20 I've decided to skip 2014 and just start playing Early Access 2015. negative -0.411769 
+418079458138931200 2013-Dec-31@18:01:25 My college friends don't care about my life as an artist.  negative -0.250365 
+418050368577077248 2013-Dec-31@16:05:49 What videogame trend would you like to see go away in 2014? What would you like to see more of? #ThePatch negative -0.0173646 
+418049693193478145 2013-Dec-31@16:03:08 About to start pre-recording our Jan 1 #ThePatch. What should we talk about? @ashleyj @RyanTheTwit @sorola neutral 0 
+417746772149018624 2013-Dec-30@19:59:26 Just hit 240.@PoolKattt: @burnie just curious, what level are you on Fog of World? neutral 0 
+417713710652608512 2013-Dec-30@17:48:04 Grateful for the holiday break but really excited to get back to work. positive 0.498866 
+417446786278502400 2013-Dec-30@00:07:24 This week, @BlawnDee and I play Dungeon Dashers by @jigxorandy on Game Time.  negative -0.24734 
+417437718432337920 2013-Dec-29@23:31:22 Asked barb to post the GT video I uploaded earlier this week. Its same vid but may not show up in subscriber notifications. FYI. negative -0.441711 
+417358896659824640 2013-Dec-29@18:18:09 Been uploading latest Game Time for 10 hours and theres 14 hours left. So  neutral 0 
+417004774190366720 2013-Dec-28@18:51:00 Also, I have seen actual sea foam that color in my life. Unless you live next to a chemical plant, sea foam is white. negative -0.425727 
+417004086869766145 2013-Dec-28@18:48:16 Watching @AshleyJ try on bridesmaid dresses is far more enjoyable than I anticipated. positive 0.813216 
