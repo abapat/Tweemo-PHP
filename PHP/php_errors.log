@@ -1,0 +1,36 @@
+[24-Sep-2014 03:46:03 UTC] PHP Warning:  include(index.php): failed to open stream: No such file or directory in C:\wamp\www\TweetBeat\PHP\process.php on line 3
+[24-Sep-2014 03:46:03 UTC] PHP Stack trace:
+[24-Sep-2014 03:46:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\PHP\process.php:0
+[24-Sep-2014 03:46:03 UTC] PHP Warning:  include(): Failed opening 'index.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\TweetBeat\PHP\process.php on line 3
+[24-Sep-2014 03:46:03 UTC] PHP Stack trace:
+[24-Sep-2014 03:46:03 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\PHP\process.php:0
+[24-Sep-2014 03:46:05 UTC] PHP Warning:  require_once(Alchemy/alchemyapi_php/alchemyapi.php): failed to open stream: No such file or directory in C:\wamp\www\TweetBeat\PHP\textToSentiment.php on line 12
+[24-Sep-2014 03:46:05 UTC] PHP Stack trace:
+[24-Sep-2014 03:46:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\PHP\process.php:0
+[24-Sep-2014 03:46:05 UTC] PHP   2. search() C:\wamp\www\TweetBeat\PHP\process.php:27
+[24-Sep-2014 03:46:05 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\PHP\process.php:52
+[24-Sep-2014 03:46:05 UTC] PHP   4. getTweetSentiment() C:\wamp\www\TweetBeat\PHP\process.php:249
+[24-Sep-2014 03:46:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'Alchemy/alchemyapi_php/alchemyapi.php' (include_path='.;C:\php\pear') in C:\wamp\www\TweetBeat\PHP\textToSentiment.php on line 12
+[24-Sep-2014 03:46:05 UTC] PHP Stack trace:
+[24-Sep-2014 03:46:05 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\PHP\process.php:0
+[24-Sep-2014 03:46:05 UTC] PHP   2. search() C:\wamp\www\TweetBeat\PHP\process.php:27
+[24-Sep-2014 03:46:05 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\PHP\process.php:52
+[24-Sep-2014 03:46:05 UTC] PHP   4. getTweetSentiment() C:\wamp\www\TweetBeat\PHP\process.php:249
+[24-Sep-2014 03:47:35 UTC] PHP Warning:  include(index.php): failed to open stream: No such file or directory in C:\wamp\www\TweetBeat\PHP\process.php on line 3
+[24-Sep-2014 03:47:35 UTC] PHP Stack trace:
+[24-Sep-2014 03:47:35 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\PHP\process.php:0
+[24-Sep-2014 03:47:35 UTC] PHP Warning:  include(): Failed opening 'index.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\TweetBeat\PHP\process.php on line 3
+[24-Sep-2014 03:47:35 UTC] PHP Stack trace:
+[24-Sep-2014 03:47:35 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\PHP\process.php:0
+[24-Sep-2014 03:47:35 UTC] PHP Warning:  require_once(Alchemy/alchemyapi_php/alchemyapi.php): failed to open stream: No such file or directory in C:\wamp\www\TweetBeat\PHP\textToSentiment.php on line 12
+[24-Sep-2014 03:47:35 UTC] PHP Stack trace:
+[24-Sep-2014 03:47:35 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\PHP\process.php:0
+[24-Sep-2014 03:47:35 UTC] PHP   2. search() C:\wamp\www\TweetBeat\PHP\process.php:27
+[24-Sep-2014 03:47:35 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\PHP\process.php:52
+[24-Sep-2014 03:47:35 UTC] PHP   4. getTweetSentiment() C:\wamp\www\TweetBeat\PHP\process.php:249
+[24-Sep-2014 03:47:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'Alchemy/alchemyapi_php/alchemyapi.php' (include_path='.;C:\php\pear') in C:\wamp\www\TweetBeat\PHP\textToSentiment.php on line 12
+[24-Sep-2014 03:47:35 UTC] PHP Stack trace:
+[24-Sep-2014 03:47:35 UTC] PHP   1. {main}() C:\wamp\www\TweetBeat\PHP\process.php:0
+[24-Sep-2014 03:47:35 UTC] PHP   2. search() C:\wamp\www\TweetBeat\PHP\process.php:27
+[24-Sep-2014 03:47:35 UTC] PHP   3. parseData() C:\wamp\www\TweetBeat\PHP\process.php:52
+[24-Sep-2014 03:47:35 UTC] PHP   4. getTweetSentiment() C:\wamp\www\TweetBeat\PHP\process.php:249
