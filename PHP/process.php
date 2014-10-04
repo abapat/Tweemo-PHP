@@ -20,13 +20,6 @@ $settings = array(
 	'consumer_secret' => "MCM3hcxhiM09htNE9QzeUzSziaw2JsEcXqOas1pPwrGujKCodx"
 );
 $twitter = new TwitterAPIExchange($settings);
-/*
-if (isset($_POST['value'])) {
-	$twitterHandle = $_POST['value'];
-    search($twitterHandle);
-}
-*/
-
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
