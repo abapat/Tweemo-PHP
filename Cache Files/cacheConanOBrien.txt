@@ -65,9 +65,7 @@
 490664146220756992 2014-Jul-20@01:07:03 The U.S. Census bureau found that only 7% of Americans identify themselves as bisexual. This is shocking new to anyone who watches porn. negative -0.617491 
 490252803093172225 2014-Jul-18@21:52:31 Not sure I’m on board with the idea of “6 Californias.” But I am very interested in the idea of 35 Rhode Islands. positive 0.239716 
 489945638482616321 2014-Jul-18@01:31:57 Tonight Dave Franco helps me learn about Tinder. Also tonight, I learn how cruel the internet can be.  positive 0.0186366 
-489603796293533697 2014-Jul-17@02:53:36 So Stephen Colbert debuted the first masturbating bear? Tonight, I make @StephenAtHome pay for his grotesque lie.
-
-  neutral 0 
+489603796293533697 2014-Jul-17@02:53:36 So Stephen Colbert debuted the first masturbating bear? Tonight, I make @StephenAtHome pay for his grotesque lie. neutral 0 
 489167202432458752 2014-Jul-15@21:58:44 In recent speeches, President Obama has been calling on Americans to stop being so cynical. He’s probably getting paid to say that. negative -0.775571 
 488779715163869184 2014-Jul-14@20:18:59 Dawn of the Planet of the Apes has some pretty crass product placement, especially the scene where the apes start wearing Skechers. negative -0.721485 
 488478531916005376 2014-Jul-14@00:22:12 Gonna kick this BBQ off right with my favorite summer groove: Bjork’s “Human Behaviour.” positive 0.59936 
