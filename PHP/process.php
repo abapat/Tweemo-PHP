@@ -20,13 +20,6 @@ $settings = array(
 	'consumer_secret' => "MCM3hcxhiM09htNE9QzeUzSziaw2JsEcXqOas1pPwrGujKCodx"
 );
 $twitter = new TwitterAPIExchange($settings);
-/*
-if (isset($_POST['value'])) {
-	$twitterHandle = $_POST['value'];
-    search($twitterHandle);
-}
-*/
-
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -369,35 +362,35 @@ function openFile($filename){
 		$count = 0;
 		$maxPos = array("score"=>0, "tweet"=>"");
 		$maxNeg = array("score"=>0, "tweet"=>"");
-		
-		while (($line = fgets($file)) !== false) {
-			//gets the tweet id
-			$idx = strpos($line, " ");
-			$id = substr($line, 0, $idx);
-			$line = substr($line, $idx+1, strlen($line));
-			
-			//gets the date
-			$idx = strpos($line, " ");
-			$date = substr($line, 0, $idx);
-			$line = substr($line, $idx+1, strlen($line));
-			$dateArr = explode("@", $date);
-			//alters $dateArr[0] so that the graph aggregates data monthly
-			$idx = strrpos($dateArr[0], "-");
-			$dateArr[0] = substr($dateArr[0], 0, $idx);
-			
-			//gets the score
-			$idx = strrpos($line, " ");
-			$score = substr($line, $idx, strlen($line));
-			$line = substr($line, 0, $idx);
-			//this is done again b/c there was an extra space at the end of each line.
-			$idx = strrpos($line, " ");
-			$score = (double)substr($line, $idx, strlen($line));
-			$line = substr($line, 0, $idx);
-			
-			//gets the tweet
-			$idx = strrpos($line, " ");
-			$tweet = str_replace("\"","&quot;",substr($line, 0, $idx));
-			
+		while(true) {
+			if(($line = fgets($file)) !== false){
+				//gets the tweet id
+				$idx = strpos($line, " ");
+				$id = substr($line, 0, $idx);
+				$line = substr($line, $idx+1, strlen($line));
+				
+				//gets the date
+				$idx = strpos($line, " ");
+				$date = substr($line, 0, $idx);
+				$line = substr($line, $idx+1, strlen($line));
+				$dateArr = explode("@", $date);
+				//alters $dateArr[0] so that the graph aggregates data monthly
+				$idx = strrpos($dateArr[0], "-");
+				$dateArr[0] = substr($dateArr[0], 0, $idx);
+				
+				//gets the score
+				$idx = strrpos($line, " ");
+				$score = substr($line, $idx, strlen($line));
+				$line = substr($line, 0, $idx);
+				//this is done again b/c there was an extra space at the end of each line.
+				$idx = strrpos($line, " ");
+				$score = (double)substr($line, $idx, strlen($line));
+				$line = substr($line, 0, $idx);
+				
+				//gets the tweet
+				$idx = strrpos($line, " ");
+				$tweet = str_replace("\"","&quot;",substr($line, 0, $idx));
+			}
 			//initializing first date
 			if($latestDate == NULL){
 				$latestDate = $dateArr[0];
@@ -412,15 +405,9 @@ function openFile($filename){
 					$maxNeg["tweet"] = $tweet;
 				}
 			}
-			//if we've past the current date, then create a new row
-			else if($latestDate != NULL && strcmp($latestDate, $dateArr[0]) != 0){
-				//create the string that would display in a mini-window
-				$winStr = "";
-				if($totalScore > 0)
-					$winStr .= "Most Positive Tweet : ".$maxPos["tweet"];
-				if($totalScore < 0)
-					$winStr .= "Most Negative Tweet : ".$maxNeg["tweet"];
-					
+			//if we've past the current date or reached the end of file, then create a new row
+			else if($line===false || ($latestDate != NULL && strcmp($latestDate, $dateArr[0]) != 0)){
+				//create the string that would display in a mini-window					
 				echo("<script text=\"text/javascript\">
 						tweets.push([".($count+1).",\"".$maxNeg["tweet"]."\", ".$maxNeg["score"].", \"".$maxPos["tweet"]."\", ".$maxPos["score"]."]);
 						rows.push(['".$latestDate."',".($totalScore/($count+1))."]);
@@ -458,6 +445,9 @@ function openFile($filename){
 					$maxNeg["tweet"] = $tweet;
 				}
 			}
+			//if we reached the end of the file, then exit loop
+			if($line === false)
+				break;
 		}
 	} else {
 		echo "ERROR : File Not Found.";
