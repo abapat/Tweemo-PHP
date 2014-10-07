@@ -8,6 +8,10 @@
   background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
   background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
   height: 100%;
+  -webkit-transition: ease 1s;
+  -moz-transition: ease 1s;
+  -o-transition: ease 1s;
+  transition: ease 1s;
 }
 
 /*Time to finalise the cloud shape*/

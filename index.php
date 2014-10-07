@@ -45,62 +45,62 @@
 
 	<body>
 		<div id="clouds">
-				<div class="site-wrapper">
+			<div class="site-wrapper">
 
-			      <div class="site-wrapper-inner">
+		      <div class="site-wrapper-inner">
 
-			        <div class="cover-container">
-			        <!--
-			          POTENTIALLY USEFUL NAVBAR CODE
-			          <div class="masthead clearfix">
-			            <div class="inner">
-			              <h3 class="masthead-brand">TweetBeat</h3>
-			              <ul class="nav masthead-nav">
-			                <li class="active"><a href="#">About</a></li>
-			              </ul>
-			            </div>
-			          </div>
-					-->
-			          <div class="inner cover">
-			            <h1 class="cover-heading">TweetBeat</h1>
-			            <p class="lead">The Twitter Sentiment Analysis Tool</p>
-			          </div>
+		        <div class="cover-container">
+		        <!--
+		          POTENTIALLY USEFUL NAVBAR CODE
+		          <div class="masthead clearfix">
+		            <div class="inner">
+		              <h3 class="masthead-brand">TweetBeat</h3>
+		              <ul class="nav masthead-nav">
+		                <li class="active"><a href="#">About</a></li>
+		              </ul>
+		            </div>
+		          </div>
+				-->
+		          <div class="inner cover">
+		            <h1 class="cover-heading">TweetBeat</h1>
+		            <p class="lead">The Twitter Sentiment Analysis Tool</p>
+		          </div>
 
-			          <div id="searchFormDiv">
-			          	<input type="text" id="searchBar" placeholder="Enter Twitter Handle Here!"/>
-			          	<input text="Search" id="searchButton" type="submit" />
-			          </div>
-			        </div>
+		          <div id="searchFormDiv">
+		          	<input type="text" id="searchBar" placeholder="Enter Twitter Handle Here!"/>
+		          	<input text="Search" id="searchButton" type="submit" />
+		          	<!--<div id="balanceDiv"></div>-->
+		          </div>
+		        </div>
 
-			        <script type="text/javascript">
-						loadPackages();
-					</script>
+		        <script type="text/javascript">
+					loadPackages();
+				</script>
 
-					<br />
-					<!--<img src = 'https://pbs.twimg.com/profile_images/1132696610/securedownload_normal.jpeg' /> IMAGE THING--> 
-					<span id="chart_div"></span>
-					<br />
-					<br />
-					
-					<div id="totalCount"></div>
-					<br />
-					<div id="count"></div>
-					<ul id="tweets">
-						<li id="negMsg">
-						</li>
-						<ul>
-							<li id="negScore"></li>
-						</ul>
-						<li id="posMsg">
-						</li>
-						<ul>
-							<li id="posScore"></li>
-						</ul>
+				<br />
+				<!--<img src = 'https://pbs.twimg.com/profile_images/1132696610/securedownload_normal.jpeg' /> IMAGE THING--> 
+				<span id="chart_div"></span>
+				<br />
+				<br />
+				
+				<div id="totalCount"></div>
+				<br />
+				<div id="count"></div>
+				<ul id="tweets">
+					<li id="negMsg">
+					</li>
+					<ul>
+						<li id="negScore"></li>
 					</ul>
-			      </div>
+					<li id="posMsg">
+					</li>
+					<ul>
+						<li id="posScore"></li>
+					</ul>
+				</ul>
+		      </div>
 
-				</div>
-
+			</div>
 		</div>
 
 		<div class="cloud x1"></div>

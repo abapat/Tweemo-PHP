@@ -5,17 +5,25 @@ $(document).ready(function(){
 	}
 	else{
 		$('#chart_div').hide();
+		$('#totalCount').hide();
 	}
 
 	$( document ).ajaxComplete(function() { //Function used to see if ajax request fires
 	  	$('#chart_div').show();
+	  	$('#totalCount').show();
 	});
 
+	//loadXMLDoc();
+
     $('#searchButton').click(function(){
+
+    	$('#searchButton').queue(function() {
+		  $('#clouds').css("background", "#7A7A7A");
+		  //$('#clouds').css("background", "blue");
+		});
+
         var searchValue = $('#searchBar').val();
-        //var ajaxurl = 'PHP/process.php';
         var ajaxurl = 'index.php';
-        //$('#chart_div').show();
         data =  {'value': searchValue};
         $.post(ajaxurl, data, function (response) {
         	window.open("/TweetBeat/index.php?search="+searchValue, "_self");
@@ -31,6 +39,7 @@ var doneLoadingGoogle = false;
 var doneLoadingRows = false;
 var chart;
 var tweets = new Array();
+var balanceURL = 'http://access.alchemyapi.com/calls/info/GetAPIKeyInfo?apikey=7c597a16690ed98eac87c7a3baf3a54da94276f5';
 
 
 function loadPackages(){
@@ -131,3 +140,28 @@ function setTotalCount(){
 		total += tweets[i][0];
 	document.getElementById("totalCount").innerHTML = "Total Tweets : "+total;
 }
+/*
+//Get the balance on the number of transactions left in alchemy
+function loadXMLDoc()
+{
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  	xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  	xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if(xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    	var balanceResponse = xmlhttp.responseText;
+    	var responseArray = balanceResponse.split(' ');
+    	document.getElementById("balanceDiv").innerHTML='Balance: ' + responseArray[1] + ' of: ' + responseArray[2];
+    }
+  }
+xmlhttp.open("GET",balanceURL,true);
+xmlhttp.send();
+}
+*/
