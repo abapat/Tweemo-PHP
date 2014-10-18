@@ -121,7 +121,7 @@ function getID($name) {
  */
 function error($err) {
 	$str = $err[0]->message;
-	echo("<script> alert('".$str."'); window.open('/TweetBeat/index.php','_self'); </script>");
+	echo("<script> alert('".$str."'); window.open('index.php','_self'); </script>");
 }
 
 /**

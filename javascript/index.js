@@ -16,7 +16,6 @@ $(document).ready(function(){
 	//loadXMLDoc();
 
     $('#searchButton').click(function(){
-
     	$('#searchButton').queue(function() {
 		  $('#clouds').css("background", "#7A7A7A");
 		  //$('#clouds').css("background", "blue");
@@ -26,7 +25,7 @@ $(document).ready(function(){
         var ajaxurl = 'index.php';
         data =  {'value': searchValue};
         $.post(ajaxurl, data, function (response) {
-        	window.open("/TweetBeat/index.php?search="+searchValue, "_self");
+        	window.open("/index.php?search="+searchValue, "_self");
         });
     });
 });
