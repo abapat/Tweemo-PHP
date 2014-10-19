@@ -2,6 +2,7 @@ $(document).ready(function(){
 
 	if(document.URL.indexOf('?search=') > -1){
 		//$('#chart_div').show();
+		//$(chart_container).append($(twitterProPic));
 	}
 	else{
 		$('#chart_div').hide();
@@ -24,11 +25,13 @@ $(document).ready(function(){
 
         var searchValue = $('#searchBar').val();
         var ajaxurl = 'index.php';
+
         data =  {'value': searchValue};
         $.post(ajaxurl, data, function (response) {
         	window.open("/TweetBeat/index.php?search="+searchValue, "_self");
         });
     });
+
 });
 
 

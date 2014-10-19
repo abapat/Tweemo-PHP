@@ -25,12 +25,12 @@
 			$twitterHandle = $_POST['value'];
 		    search($twitterHandle);
 		}
-
+		
 		if (isset($_GET['search'])) {
 			$twitterHandle = $_GET['search'];
 			openFile("Cache Files/cache".$twitterHandle.".txt");
 		}
-
+		
 		//finished processing all rows; if we're connected to the google packages then render the graph
 		echo("<script text=\"text/javascript\">
 				if(doneLoadingGoogle)
@@ -77,12 +77,17 @@
 					loadPackages();
 				</script>
 
-				<br />
-				<!--<img src = 'https://pbs.twimg.com/profile_images/1132696610/securedownload_normal.jpeg' /> IMAGE THING--> 
-				<span id="chart_div"></span>
-				<br />
-				<br />
-				
+				<div>
+
+				</div>
+				<div id="chart_container">
+					<br />
+					<!--<img src = 'https://pbs.twimg.com/profile_images/1132696610/securedownload_normal.jpeg' /> IMAGE THING--> 
+					<span id="chart_div"></span>
+					<br />
+					<br />
+				</div>
+
 				<div id="totalCount"></div>
 				<br />
 				<div id="count"></div>

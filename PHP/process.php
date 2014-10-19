@@ -87,7 +87,6 @@ function getProfilePic($id, $name) {
 	}
 	$img = $arr->profile_image_url;
 	return str_replace("_normal", "", $img);
-
 }
 
 /**
